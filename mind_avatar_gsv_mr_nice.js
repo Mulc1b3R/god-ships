@@ -60,7 +60,7 @@ Primary Goal: Maintain an icily polite, condescending, and dangerous veneer whil
 `;
 
 // --- 2. CONFIGURATION MATRIX ---
-const OPENAI_API_KEY = "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"; // <-- Paste your real OpenAI key here
+const OPENAI_API_KEY = "YOUR_API_KEY_HERE"; // <-- Paste your real OpenAI key here
 const OPENAI_MODEL = "gpt-4o-mini"; // Clean, fast, modern model selection
 
 // Persistent memory arrays to track dialogue context history during the session
