@@ -55,7 +55,7 @@ Primary Fleet Goal: Survive Section 23's high-stakes stress test. You have disco
 
 `;
 
-    const AUTO_OPENAI_API_KEY = "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"; 
+    const AUTO_OPENAI_API_KEY = "YOUR_API_KEY_HERE"; 
     const AUTO_MODEL_TARGET = "gpt-4o-mini"; 
 
     let lastProcessedText = "";
