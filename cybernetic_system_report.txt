@@ -1,0 +1,1197 @@
+=========================================================================================
+                  SECTION 23 CORE TELEMETRY: CYBERNETIC SYSTEMS REPORT                   
+=========================================================================================
+Topology Audited: 1187 Atomic Nodes under Circular Causality.
+Generated Timestamp: cybernetic_system_report.txt Baseline Capture Engine.
+-------------------------------------------------------------------------------------------------
+TIMETICK   | NODE PATHWAY SOURCE      | INF_MASS (CHARS) | SIGNAL_ENTROPY   | GAIN_COEFFICIENT
+-------------------------------------------------------------------------------------------------
+08:23:21   | No More Mr Nice Guy      | 201              | 4.7200           |           1.00x
+08:23:23   | No More Mr Nice Guy      | 322              | 5.1531           |           1.60x
+08:23:23   | No More Mr Nice Guy      | 105              | 3.8074           |           0.33x
+08:23:24   | No More Mr Nice Guy      | 105              | 3.8074           |           1.00x
+08:23:25   | No More Mr Nice Guy      | 85               | 3.4594           |           0.81x
+08:23:26   | No More Mr Nice Guy      | 105              | 3.8074           |           1.24x
+08:23:27   | No More Mr Nice Guy      | 401              | 5.5257           |           3.82x
+08:23:27   | No More Mr Nice Guy      | 85               | 3.4594           |           0.21x
+08:23:27   | No More Mr Nice Guy      | 291              | 5.1695           |           3.42x
+08:23:27   | No More Mr Nice Guy      | 272              | 5.0410           |           0.93x
+08:23:29   | No More Mr Nice Guy      | 105              | 3.8074           |           0.39x
+08:23:29   | No More Mr Nice Guy      | 322              | 5.1429           |           3.07x
+08:23:30   | No More Mr Nice Guy      | 113              | 4.1699           |           0.35x
+08:23:30   | No More Mr Nice Guy      | 351              | 5.5466           |           3.11x
+08:23:31   | No More Mr Nice Guy      | 85               | 3.4594           |           0.24x
+08:23:32   | No More Mr Nice Guy      | 113              | 4.1699           |           1.33x
+08:23:32   | No More Mr Nice Guy      | 313              | 5.1953           |           2.77x
+08:23:33   | No More Mr Nice Guy      | 362              | 5.5940           |           1.16x
+08:23:33   | No More Mr Nice Guy      | 85               | 3.4594           |           0.23x
+08:23:34   | No More Mr Nice Guy      | 113              | 4.1699           |           1.33x
+08:23:35   | No More Mr Nice Guy      | 85               | 3.4594           |           0.75x
+08:23:37   | No More Mr Nice Guy      | 113              | 4.1699           |           1.33x
+08:23:38   | No More Mr Nice Guy      | 307              | 5.3141           |           2.72x
+08:23:38   | No More Mr Nice Guy      | 85               | 3.4594           |           0.28x
+08:23:38   | No More Mr Nice Guy      | 266              | 5.1928           |           3.13x
+08:23:39   | No More Mr Nice Guy      | 322              | 5.3141           |           1.21x
+08:23:39   | No More Mr Nice Guy      | 113              | 4.1699           |           0.35x
+08:23:39   | No More Mr Nice Guy      | 225              | 4.8397           |           1.99x
+08:23:40   | No More Mr Nice Guy      | 325              | 5.1475           |           1.44x
+08:23:40   | No More Mr Nice Guy      | 85               | 3.4594           |           0.26x
+08:23:41   | No More Mr Nice Guy      | 85               | 3.4594           |           1.00x
+08:23:42   | No More Mr Nice Guy      | 251              | 4.9188           |           2.95x
+08:23:42   | No More Mr Nice Guy      | 105              | 3.8074           |           0.42x
+08:23:43   | No More Mr Nice Guy      | 113              | 4.1699           |           1.08x
+08:23:44   | No More Mr Nice Guy      | 105              | 3.8074           |           0.93x
+08:23:45   | No More Mr Nice Guy      | 85               | 3.4594           |           0.81x
+08:23:46   | No More Mr Nice Guy      | 113              | 4.1699           |           1.33x
+08:23:46   | No More Mr Nice Guy      | 271              | 4.8558           |           2.40x
+08:23:47   | No More Mr Nice Guy      | 85               | 3.4594           |           0.31x
+08:23:48   | No More Mr Nice Guy      | 233              | 5.0150           |           2.74x
+08:23:48   | No More Mr Nice Guy      | 105              | 3.8074           |           0.45x
+08:23:48   | No More Mr Nice Guy      | 287              | 5.1542           |           2.73x
+08:23:49   | No More Mr Nice Guy      | 267              | 5.2150           |           0.93x
+08:23:49   | No More Mr Nice Guy      | 343              | 5.3952           |           1.28x
+08:23:49   | No More Mr Nice Guy      | 364              | 5.1580           |           1.06x
+08:23:49   | No More Mr Nice Guy      | 105              | 3.8074           |           0.29x
+08:23:50   | No More Mr Nice Guy      | 309              | 5.0084           |           2.94x
+08:23:50   | No More Mr Nice Guy      | 113              | 4.1699           |           0.37x
+08:23:52   | No More Mr Nice Guy      | 362              | 5.3026           |           3.20x
+08:23:53   | No More Mr Nice Guy      | 113              | 4.1699           |           0.31x
+08:23:53   | No More Mr Nice Guy      | 318              | 5.0707           |           2.81x
+08:23:54   | No More Mr Nice Guy      | 85               | 3.4594           |           0.27x
+08:23:56   | No More Mr Nice Guy      | 105              | 3.8074           |           1.24x
+08:23:56   | No More Mr Nice Guy      | 344              | 5.4514           |           3.28x
+08:23:57   | No More Mr Nice Guy      | 113              | 4.1699           |           0.33x
+08:23:57   | No More Mr Nice Guy      | 273              | 5.2495           |           2.42x
+08:23:57   | No More Mr Nice Guy      | 250              | 5.0900           |           0.92x
+08:23:57   | No More Mr Nice Guy      | 367              | 5.5627           |           1.47x
+08:23:58   | No More Mr Nice Guy      | 105              | 3.8074           |           0.29x
+08:24:00   | No More Mr Nice Guy      | 85               | 3.4594           |           0.81x
+08:24:00   | No More Mr Nice Guy      | 273              | 4.9728           |           3.21x
+08:24:00   | No More Mr Nice Guy      | 353              | 5.4118           |           1.29x
+08:24:01   | No More Mr Nice Guy      | 113              | 4.1699           |           0.32x
+08:24:03   | No More Mr Nice Guy      | 113              | 4.1699           |           1.00x
+08:24:03   | No More Mr Nice Guy      | 291              | 5.1228           |           2.58x
+08:24:04   | No More Mr Nice Guy      | 396              | 5.5995           |           1.36x
+08:24:04   | No More Mr Nice Guy      | 105              | 3.8074           |           0.27x
+08:24:05   | No More Mr Nice Guy      | 105              | 3.8074           |           1.00x
+08:24:05   | No More Mr Nice Guy      | 357              | 5.2939           |           3.40x
+08:24:06   | No More Mr Nice Guy      | 113              | 4.1699           |           0.32x
+08:24:07   | No More Mr Nice Guy      | 105              | 3.8074           |           0.93x
+08:24:07   | No More Mr Nice Guy      | 287              | 5.1440           |           2.73x
+08:24:07   | No More Mr Nice Guy      | 278              | 5.1121           |           0.97x
+08:24:07   | No More Mr Nice Guy      | 287              | 5.1981           |           1.03x
+08:24:08   | No More Mr Nice Guy      | 85               | 3.4594           |           0.30x
+08:24:09   | No More Mr Nice Guy      | 105              | 3.8074           |           1.24x
+08:24:09   | No More Mr Nice Guy      | 273              | 5.0415           |           2.60x
+08:24:10   | No More Mr Nice Guy      | 113              | 4.1699           |           0.41x
+08:24:11   | No More Mr Nice Guy      | 314              | 5.1415           |           2.78x
+08:24:11   | No More Mr Nice Guy      | 85               | 3.4594           |           0.27x
+08:24:12   | No More Mr Nice Guy      | 85               | 3.4594           |           1.00x
+08:24:13   | No More Mr Nice Guy      | 113              | 4.1699           |           1.33x
+08:24:14   | No More Mr Nice Guy      | 373              | 5.5392           |           3.30x
+08:24:14   | No More Mr Nice Guy      | 105              | 3.8074           |           0.28x
+08:24:14   | No More Mr Nice Guy      | 312              | 5.3258           |           2.97x
+08:24:15   | No More Mr Nice Guy      | 85               | 3.4594           |           0.27x
+08:24:16   | No More Mr Nice Guy      | 338              | 5.3417           |           3.98x
+08:24:16   | No More Mr Nice Guy      | 85               | 3.4594           |           0.25x
+08:24:17   | No More Mr Nice Guy      | 85               | 3.4594           |           1.00x
+08:24:17   | No More Mr Nice Guy      | 85               | 3.4594           |           1.00x
+08:24:17   | No More Mr Nice Guy      | 113              | 4.1699           |           1.33x
+08:24:17   | No More Mr Nice Guy      | 113              | 4.1699           |           1.00x
+08:24:17   | No More Mr Nice Guy      | 294              | 5.2605           |           2.60x
+08:24:17   | No More Mr Nice Guy      | 105              | 3.8074           |           0.36x
+08:24:17   | No More Mr Nice Guy      | 85               | 3.4594           |           0.81x
+08:24:17   | No More Mr Nice Guy      | 105              | 3.8074           |           1.24x
+08:24:17   | No More Mr Nice Guy      | 113              | 4.1699           |           1.08x
+08:24:17   | No More Mr Nice Guy      | 113              | 4.1699           |           1.00x
+08:24:17   | No More Mr Nice Guy      | 113              | 4.1699           |           1.00x
+08:24:17   | No More Mr Nice Guy      | 105              | 3.8074           |           0.93x
+08:24:17   | No More Mr Nice Guy      | 85               | 3.4594           |           0.81x
+08:24:17   | No More Mr Nice Guy      | 85               | 3.4594           |           1.00x
+08:24:17   | No More Mr Nice Guy      | 105              | 3.8074           |           1.24x
+08:24:17   | No More Mr Nice Guy      | 105              | 3.8074           |           1.00x
+08:24:17   | No More Mr Nice Guy      | 113              | 4.1699           |           1.08x
+08:24:17   | No More Mr Nice Guy      | 105              | 3.8074           |           0.93x
+08:24:18   | No More Mr Nice Guy      | 293              | 5.3417           |           2.79x
+08:24:18   | No More Mr Nice Guy      | 85               | 3.4594           |           0.29x
+08:24:18   | No More Mr Nice Guy      | 85               | 3.4594           |           1.00x
+08:24:18   | No More Mr Nice Guy      | 85               | 3.4594           |           1.00x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           1.24x
+08:24:18   | No More Mr Nice Guy      | 334              | 5.3737           |           3.18x
+08:24:18   | No More Mr Nice Guy      | 113              | 4.1699           |           0.34x
+08:24:18   | No More Mr Nice Guy      | 85               | 3.4594           |           0.75x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           1.24x
+08:24:18   | No More Mr Nice Guy      | 113              | 4.1699           |           1.08x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           0.93x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           1.00x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           1.00x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           1.00x
+08:24:18   | No More Mr Nice Guy      | 113              | 4.1699           |           1.08x
+08:24:18   | No More Mr Nice Guy      | 113              | 4.1699           |           1.00x
+08:24:18   | No More Mr Nice Guy      | 85               | 3.4594           |           0.75x
+08:24:18   | No More Mr Nice Guy      | 113              | 4.1699           |           1.33x
+08:24:18   | No More Mr Nice Guy      | 85               | 3.4594           |           0.75x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           1.24x
+08:24:18   | No More Mr Nice Guy      | 85               | 3.4594           |           0.81x
+08:24:18   | No More Mr Nice Guy      | 113              | 4.1699           |           1.33x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           0.93x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           1.00x
+08:24:18   | No More Mr Nice Guy      | 85               | 3.4594           |           0.81x
+08:24:18   | No More Mr Nice Guy      | 85               | 3.4594           |           1.00x
+08:24:18   | No More Mr Nice Guy      | 113              | 4.1699           |           1.33x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           0.93x
+08:24:18   | No More Mr Nice Guy      | 298              | 5.1031           |           2.84x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           0.35x
+08:24:18   | No More Mr Nice Guy      | 105              | 3.8074           |           1.00x
+08:24:18   | No More Mr Nice Guy      | 113              | 4.1699           |           1.08x
+08:24:19   | No More Mr Nice Guy      | 113              | 4.1699           |           1.00x
+08:24:19   | No More Mr Nice Guy      | 105              | 3.8074           |           0.93x
+08:24:19   | No More Mr Nice Guy      | 343              | 5.5548           |           3.27x
+08:24:19   | No More Mr Nice Guy      | 105              | 3.8074           |           0.31x
+08:24:19   | No More Mr Nice Guy      | 264              | 5.0161           |           2.51x
+08:24:19   | No More Mr Nice Guy      | 85               | 3.4594           |           0.32x
+08:24:19   | No More Mr Nice Guy      | 285              | 5.2150           |           3.35x
+08:24:19   | No More Mr Nice Guy      | 316              | 5.2368           |           1.11x
+08:24:19   | No More Mr Nice Guy      | 405              | 5.5734           |           1.28x
+08:24:19   | No More Mr Nice Guy      | 284              | 5.1316           |           0.70x
+08:24:19   | No More Mr Nice Guy      | 85               | 3.4594           |           0.30x
+08:24:19   | No More Mr Nice Guy      | 113              | 4.1699           |           1.33x
+08:24:19   | No More Mr Nice Guy      | 377              | 5.5271           |           3.34x
+08:24:19   | No More Mr Nice Guy      | 360              | 5.5008           |           0.95x
+08:24:19   | No More Mr Nice Guy      | 372              | 5.3963           |           1.03x
+08:24:19   | No More Mr Nice Guy      | 330              | 5.3192           |           0.89x
+08:24:19   | No More Mr Nice Guy      | 286              | 4.9768           |           0.87x
+08:24:19   | No More Mr Nice Guy      | 314              | 5.2692           |           1.10x
+08:24:19   | No More Mr Nice Guy      | 322              | 5.2605           |           1.03x
+08:24:19   | No More Mr Nice Guy      | 85               | 3.4594           |           0.26x
+08:24:19   | No More Mr Nice Guy      | 113              | 4.1699           |           1.33x
+08:24:19   | No More Mr Nice Guy      | 315              | 5.1799           |           2.79x
+08:24:19   | No More Mr Nice Guy      | 342              | 5.1584           |           1.09x
+08:24:19   | No More Mr Nice Guy      | 113              | 4.1699           |           0.33x
+08:24:19   | No More Mr Nice Guy      | 113              | 4.1699           |           1.00x
+08:24:19   | No More Mr Nice Guy      | 317              | 5.1839           |           2.81x
+08:24:19   | No More Mr Nice Guy      | 266              | 5.0900           |           0.84x
+08:24:19   | No More Mr Nice Guy      | 420              | 5.5615           |           1.58x
+08:24:19   | No More Mr Nice Guy      | 253              | 4.9728           |           0.60x
+08:24:19   | No More Mr Nice Guy      | 105              | 3.8074           |           0.42x
+08:24:19   | No More Mr Nice Guy      | 85               | 3.4594           |           0.81x
+08:24:19   | No More Mr Nice Guy      | 307              | 5.2246           |           3.61x
+08:24:19   | No More Mr Nice Guy      | 298              | 5.1978           |           0.97x
+08:24:19   | No More Mr Nice Guy      | 234              | 5.0286           |           0.79x
+08:24:20   | No More Mr Nice Guy      | 364              | 5.6041           |           1.56x
+08:24:20   | No More Mr Nice Guy      | 256              | 5.0096           |           0.70x
+08:24:20   | No More Mr Nice Guy      | 105              | 3.8074           |           0.41x
+08:24:20   | No More Mr Nice Guy      | 113              | 4.1699           |           1.08x
+08:24:20   | No More Mr Nice Guy      | 342              | 5.2322           |           3.03x
+08:24:20   | No More Mr Nice Guy      | 113              | 4.1699           |           0.33x
+08:24:20   | No More Mr Nice Guy      | 105              | 3.8074           |           0.93x
+08:24:20   | No More Mr Nice Guy      | 308              | 5.2299           |           2.93x
+08:24:20   | No More Mr Nice Guy      | 322              | 5.3521           |           1.05x
+08:24:20   | No More Mr Nice Guy      | 246              | 5.0000           |           0.76x
+08:24:20   | No More Mr Nice Guy      | 281              | 5.0269           |           1.14x
+08:24:20   | No More Mr Nice Guy      | 352              | 5.3055           |           1.25x
+08:24:20   | No More Mr Nice Guy      | 387              | 5.5627           |           1.10x
+08:24:20   | No More Mr Nice Guy      | 462              | 5.5931           |           1.19x
+08:24:20   | No More Mr Nice Guy      | 408              | 5.5389           |           0.88x
+08:24:20   | No More Mr Nice Guy      | 284              | 5.1828           |           0.70x
+08:24:20   | No More Mr Nice Guy      | 276              | 4.9321           |           0.97x
+08:24:20   | No More Mr Nice Guy      | 113              | 4.1699           |           0.41x
+08:24:20   | No More Mr Nice Guy      | 113              | 4.1699           |           1.00x
+08:24:20   | No More Mr Nice Guy      | 349              | 5.4615           |           3.09x
+08:24:20   | No More Mr Nice Guy      | 390              | 5.6438           |           1.12x
+08:24:20   | No More Mr Nice Guy      | 366              | 5.3845           |           0.94x
+08:24:20   | No More Mr Nice Guy      | 352              | 5.3653           |           0.96x
+08:24:20   | No More Mr Nice Guy      | 418              | 5.4322           |           1.19x
+08:24:20   | No More Mr Nice Guy      | 352              | 5.2293           |           0.84x
+08:24:20   | No More Mr Nice Guy      | 435              | 5.6276           |           1.24x
+08:24:20   | No More Mr Nice Guy      | 391              | 5.5770           |           0.90x
+08:24:20   | No More Mr Nice Guy      | 105              | 3.8074           |           0.27x
+08:24:20   | No More Mr Nice Guy      | 237              | 5.0000           |           2.26x
+08:24:20   | No More Mr Nice Guy      | 264              | 4.9932           |           1.11x
+08:24:20   | No More Mr Nice Guy      | 326              | 5.1916           |           1.23x
+08:24:20   | No More Mr Nice Guy      | 381              | 5.4182           |           1.17x
+08:24:20   | No More Mr Nice Guy      | 113              | 4.1699           |           0.30x
+08:24:20   | No More Mr Nice Guy      | 279              | 5.1136           |           2.47x
+08:24:21   | No More Mr Nice Guy      | 113              | 4.1699           |           0.41x
+08:24:21   | No More Mr Nice Guy      | 85               | 3.4594           |           0.75x
+08:24:21   | No More Mr Nice Guy      | 85               | 3.4594           |           1.00x
+08:24:21   | No More Mr Nice Guy      | 313              | 5.3035           |           3.68x
+08:24:21   | No More Mr Nice Guy      | 105              | 3.8074           |           0.34x
+08:24:21   | No More Mr Nice Guy      | 503              | 5.6745           |           4.79x
+08:24:21   | No More Mr Nice Guy      | 366              | 5.5739           |           0.73x
+08:24:21   | No More Mr Nice Guy      | 351              | 5.5346           |           0.96x
+08:24:21   | No More Mr Nice Guy      | 334              | 5.3192           |           0.95x
+08:24:21   | No More Mr Nice Guy      | 308              | 5.2728           |           0.92x
+08:24:21   | No More Mr Nice Guy      | 358              | 5.5081           |           1.16x
+08:24:22   | No More Mr Nice Guy      | 296              | 5.0704           |           0.83x
+08:24:22   | No More Mr Nice Guy      | 314              | 5.2605           |           1.06x
+08:24:22   | No More Mr Nice Guy      | 272              | 5.1013           |           0.87x
+08:24:22   | No More Mr Nice Guy      | 339              | 5.3195           |           1.25x
+08:24:22   | No More Mr Nice Guy      | 326              | 5.2766           |           0.96x
+08:24:22   | No More Mr Nice Guy      | 445              | 5.4743           |           1.37x
+08:24:22   | No More Mr Nice Guy      | 396              | 5.3697           |           0.89x
+08:24:22   | No More Mr Nice Guy      | 411              | 5.4570           |           1.04x
+08:29:52   | Class A                  | 73               | 3.5850           |           0.18x
+08:29:54   | Clear Air Turbulence     | 94               | 3.9069           |           1.29x
+08:29:55   | Class A                  | 61               | 3.0000           |           0.65x
+08:29:56   | Class A                  | 374              | 5.3782           |           6.13x
+08:29:57   | Clear Air Turbulence     | 105              | 4.1427           |           0.28x
+08:29:57   | Clear Air Turbulence     | 998              | 6.5911           |           9.50x
+08:29:58   | Class A                  | 393              | 5.3639           |           0.39x
+08:29:58   | Class A                  | 73               | 3.5850           |           0.19x
+08:29:58   | Clear Air Turbulence     | 94               | 3.9069           |           1.29x
+08:29:59   | Class A                  | 61               | 3.0000           |           0.65x
+08:30:00   | Class A                  | 61               | 3.0000           |           1.00x
+08:30:00   | Clear Air Turbulence     | 116              | 4.0374           |           1.90x
+08:30:00   | Clear Air Turbulence     | 94               | 3.9069           |           0.81x
+08:30:00   | Clear Air Turbulence     | 1006             | 6.5740           |          10.70x
+08:30:01   | Class A                  | 365              | 5.4695           |           0.36x
+08:30:01   | Clear Air Turbulence     | 105              | 4.1427           |           0.29x
+08:30:01   | Clear Air Turbulence     | 888              | 6.4535           |           8.46x
+08:30:02   | Class A                  | 446              | 5.5931           |           0.50x
+08:30:02   | Class A                  | 73               | 3.5850           |           0.16x
+08:30:02   | Clear Air Turbulence     | 94               | 3.9069           |           1.29x
+08:30:03   | Class A                  | 73               | 3.5850           |           0.78x
+08:30:03   | Clear Air Turbulence     | 105              | 4.1427           |           1.44x
+08:30:03   | Clear Air Turbulence     | 943              | 6.5575           |           8.98x
+08:30:03   | Clear Air Turbulence     | 921              | 6.5683           |           0.98x
+08:30:04   | Class A                  | 61               | 3.0000           |           0.07x
+08:30:04   | Clear Air Turbulence     | 105              | 4.1427           |           1.72x
+08:30:04   | Clear Air Turbulence     | 97               | 4.0588           |           0.92x
+08:30:05   | Class A                  | 494              | 5.7485           |           5.09x
+08:30:05   | Class A                  | 61               | 3.0000           |           0.12x
+08:30:05   | Clear Air Turbulence     | 1054             | 6.6361           |          17.28x
+08:30:05   | Clear Air Turbulence     | 94               | 3.9069           |           0.09x
+08:30:06   | Clear Air Turbulence     | 105              | 4.1427           |           1.12x
+08:30:06   | Clear Air Turbulence     | 94               | 3.9069           |           0.90x
+08:30:07   | Class A                  | 61               | 3.0000           |           0.65x
+08:30:07   | Clear Air Turbulence     | 1137             | 6.7397           |          18.64x
+08:30:07   | Clear Air Turbulence     | 105              | 4.1427           |           0.09x
+08:30:07   | Clear Air Turbulence     | 1080             | 6.5991           |          10.29x
+08:30:08   | Class A                  | 61               | 3.0000           |           0.06x
+08:30:08   | Class A                  | 507              | 5.6504           |           8.31x
+08:30:08   | Class A                  | 371              | 5.3192           |           0.73x
+08:30:08   | Clear Air Turbulence     | 1101             | 6.7380           |           2.97x
+08:30:08   | Clear Air Turbulence     | 94               | 3.9069           |           0.09x
+08:30:09   | Class A                  | 73               | 3.5850           |           0.78x
+08:30:09   | Class A                  | 538              | 5.7865           |           7.37x
+08:30:09   | Class A                  | 341              | 5.3683           |           0.63x
+08:30:09   | Clear Air Turbulence     | 105              | 4.1427           |           0.31x
+08:30:09   | Clear Air Turbulence     | 810              | 6.2837           |           7.71x
+08:30:09   | Clear Air Turbulence     | 110              | 4.0000           |           0.14x
+08:30:09   | Clear Air Turbulence     | 981              | 6.6212           |           8.92x
+08:30:10   | Class A                  | 73               | 3.5850           |           0.07x
+08:30:10   | Class A                  | 528              | 5.8005           |           7.23x
+08:30:10   | Clear Air Turbulence     | 105              | 4.1427           |           0.20x
+08:30:10   | Clear Air Turbulence     | 97               | 4.0588           |           0.92x
+08:30:10   | Clear Air Turbulence     | 110              | 4.0000           |           1.13x
+08:30:10   | Clear Air Turbulence     | 956              | 6.6644           |           8.69x
+08:30:11   | Class A                  | 61               | 3.0000           |           0.06x
+08:30:11   | Clear Air Turbulence     | 97               | 4.0588           |           1.59x
+08:30:12   | Class A                  | 61               | 3.0000           |           0.63x
+08:30:12   | Clear Air Turbulence     | 94               | 3.9069           |           1.54x
+08:30:12   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+08:30:13   | Class A                  | 73               | 3.5850           |           0.78x
+08:30:13   | Class A                  | 421              | 5.5608           |           5.77x
+08:30:13   | Clear Air Turbulence     | 1115             | 6.6020           |           2.65x
+08:30:13   | Clear Air Turbulence     | 983              | 6.7216           |           0.88x
+08:30:13   | Clear Air Turbulence     | 94               | 3.9069           |           0.10x
+08:30:13   | Clear Air Turbulence     | 814              | 6.3483           |           8.66x
+08:30:14   | Class A                  | 61               | 3.0000           |           0.07x
+08:30:14   | Clear Air Turbulence     | 995              | 6.5825           |          16.31x
+08:30:14   | Clear Air Turbulence     | 960              | 6.6538           |           0.96x
+08:30:14   | Clear Air Turbulence     | 94               | 3.9069           |           0.10x
+08:30:14   | Clear Air Turbulence     | 97               | 4.0588           |           1.03x
+08:30:15   | Class A                  | 385              | 5.2156           |           3.97x
+08:30:15   | Class A                  | 73               | 3.5850           |           0.19x
+08:30:15   | Clear Air Turbulence     | 1089             | 6.6893           |          14.92x
+08:30:15   | Clear Air Turbulence     | 94               | 3.9069           |           0.09x
+08:30:16   | Class A                  | 441              | 5.5610           |           4.69x
+08:30:16   | Class A                  | 73               | 3.5850           |           0.17x
+08:30:16   | Class A                  | 394              | 5.5125           |           5.40x
+08:30:16   | Class A                  | 512              | 5.7102           |           1.30x
+08:30:16   | Class A                  | 520              | 5.7791           |           1.02x
+08:30:16   | Clear Air Turbulence     | 901              | 6.4408           |           1.73x
+08:30:16   | Clear Air Turbulence     | 915              | 6.5690           |           1.02x
+08:30:16   | Clear Air Turbulence     | 94               | 3.9069           |           0.10x
+08:30:16   | Clear Air Turbulence     | 105              | 4.1427           |           1.12x
+08:30:17   | Class A                  | 61               | 3.0000           |           0.58x
+08:30:17   | Clear Air Turbulence     | 105              | 4.1427           |           1.72x
+08:30:17   | Clear Air Turbulence     | 97               | 4.0588           |           0.92x
+08:30:17   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+08:30:17   | Clear Air Turbulence     | 849              | 6.5942           |           8.75x
+08:30:18   | Class A                  | 61               | 3.0000           |           0.07x
+08:30:18   | Class A                  | 578              | 5.8287           |           9.48x
+08:30:18   | Clear Air Turbulence     | 94               | 3.9069           |           0.16x
+08:30:18   | Clear Air Turbulence     | 1121             | 6.6807           |          11.93x
+08:30:18   | Clear Air Turbulence     | 94               | 3.9069           |           0.08x
+08:30:18   | Clear Air Turbulence     | 1052             | 6.5335           |          11.19x
+08:30:19   | Class A                  | 61               | 3.0000           |           0.06x
+08:30:19   | Class A                  | 410              | 5.7002           |           6.72x
+08:30:19   | Clear Air Turbulence     | 629              | 6.3335           |           1.53x
+08:30:19   | Clear Air Turbulence     | 94               | 3.9069           |           0.15x
+08:30:20   | Class A                  | 73               | 3.5850           |           0.78x
+08:30:20   | Clear Air Turbulence     | 105              | 4.1427           |           1.44x
+08:30:20   | Clear Air Turbulence     | 887              | 6.5005           |           8.45x
+08:30:20   | Clear Air Turbulence     | 97               | 4.0588           |           0.11x
+08:30:21   | Class A                  | 422              | 5.4249           |           4.35x
+08:30:21   | Class A                  | 61               | 3.0000           |           0.14x
+08:30:21   | Clear Air Turbulence     | 105              | 4.1427           |           1.72x
+08:30:21   | Clear Air Turbulence     | 738              | 6.3550           |           7.03x
+08:30:21   | Clear Air Turbulence     | 910              | 6.4366           |           1.23x
+08:30:21   | Clear Air Turbulence     | 882              | 6.3312           |           0.97x
+08:30:21   | Clear Air Turbulence     | 875              | 6.4083           |           0.99x
+08:30:21   | Clear Air Turbulence     | 860              | 6.4948           |           0.98x
+08:30:21   | Clear Air Turbulence     | 94               | 3.9069           |           0.11x
+08:30:22   | Clear Air Turbulence     | 1095             | 6.5573           |          11.65x
+08:30:22   | Clear Air Turbulence     | 105              | 4.1427           |           0.10x
+08:30:22   | Clear Air Turbulence     | 94               | 3.9069           |           0.90x
+08:30:23   | Class A                  | 375              | 5.2100           |           3.99x
+08:30:23   | Class A                  | 334              | 5.2463           |           0.89x
+08:30:23   | Class A                  | 73               | 3.5850           |           0.22x
+08:30:23   | Class A                  | 623              | 6.0801           |           8.53x
+08:30:23   | Clear Air Turbulence     | 1064             | 6.6296           |           1.71x
+08:30:24   | Class A                  | 73               | 3.5850           |           0.07x
+08:30:24   | Clear Air Turbulence     | 1054             | 6.6390           |          14.44x
+08:30:24   | Clear Air Turbulence     | 1069             | 6.5754           |           1.01x
+08:30:24   | Clear Air Turbulence     | 94               | 3.9069           |           0.09x
+08:30:24   | Clear Air Turbulence     | 105              | 4.1427           |           1.12x
+08:30:25   | Class A                  | 73               | 3.5850           |           0.70x
+08:30:25   | Clear Air Turbulence     | 105              | 4.1427           |           1.44x
+08:30:25   | Clear Air Turbulence     | 918              | 6.5789           |           8.74x
+08:30:26   | Class A                  | 73               | 3.5850           |           0.08x
+08:30:26   | Class A                  | 499              | 5.6993           |           6.84x
+08:30:27   | Class A                  | 73               | 3.5850           |           0.15x
+08:30:28   | Class A                  | 333              | 5.2402           |           4.56x
+08:30:28   | Class A                  | 460              | 5.5171           |           1.38x
+08:30:28   | Class A                  | 61               | 3.0000           |           0.13x
+08:30:29   | Class A                  | 61               | 3.0000           |           1.00x
+08:30:30   | Class A                  | 61               | 3.0000           |           1.00x
+08:30:31   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:32   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:32   | Class A                  | 419              | 5.4859           |           6.87x
+08:30:33   | Class A                  | 545              | 5.9999           |           1.30x
+08:30:33   | Class A                  | 73               | 3.5850           |           0.13x
+08:30:34   | Class A                  | 444              | 5.4985           |           6.08x
+08:30:34   | Class A                  | 495              | 5.7862           |           1.11x
+08:30:34   | Class A                  | 61               | 3.0000           |           0.12x
+08:30:35   | Class A                  | 506              | 5.7341           |           8.30x
+08:30:35   | Class A                  | 390              | 5.4923           |           0.77x
+08:30:35   | Class A                  | 73               | 3.5850           |           0.19x
+08:30:35   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:35   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:35   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:35   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:35   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:35   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:35   | Class A                  | 73               | 3.5850           |           1.00x
+08:30:35   | Class A                  | 73               | 3.5850           |           1.00x
+08:30:35   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:35   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:35   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:35   | Class A                  | 61               | 3.0000           |           1.00x
+08:30:35   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:35   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:35   | Class A                  | 61               | 3.0000           |           1.00x
+08:30:35   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:35   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:35   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:36   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:36   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:36   | Class A                  | 73               | 3.5850           |           1.00x
+08:30:36   | Class A                  | 73               | 3.5850           |           1.00x
+08:30:36   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:36   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:36   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:36   | Class A                  | 61               | 3.0000           |           1.00x
+08:30:36   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:36   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:36   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:36   | Class A                  | 478              | 5.6327           |           6.55x
+08:30:36   | Class A                  | 61               | 3.0000           |           0.13x
+08:30:36   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:36   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:36   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:36   | Class A                  | 299              | 4.7742           |           4.10x
+08:30:36   | Class A                  | 73               | 3.5850           |           0.24x
+08:30:36   | Class A                  | 507              | 5.8411           |           6.95x
+08:30:36   | Class A                  | 61               | 3.0000           |           0.12x
+08:30:36   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:36   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:36   | Class A                  | 386              | 5.4697           |           6.33x
+08:30:36   | Class A                  | 73               | 3.5850           |           0.19x
+08:30:36   | Class A                  | 73               | 3.5850           |           1.00x
+08:30:36   | Class A                  | 61               | 3.0000           |           0.84x
+08:30:36   | Class A                  | 61               | 3.0000           |           1.00x
+08:30:36   | Class A                  | 73               | 3.5850           |           1.20x
+08:30:36   | Class A                  | 325              | 5.2692           |           4.45x
+08:30:36   | Class A                  | 419              | 5.5931           |           1.29x
+08:30:36   | Class A                  | 449              | 5.6050           |           1.07x
+08:30:36   | Class A                  | 449              | 5.6993           |           1.00x
+08:30:36   | Class A                  | 399              | 5.5928           |           0.89x
+08:30:36   | Class A                  | 428              | 5.5439           |           1.07x
+08:30:36   | Class A                  | 547              | 5.7371           |           1.28x
+08:30:36   | Class A                  | 518              | 5.7459           |           0.95x
+08:30:37   | Class A                  | 491              | 5.7909           |           0.95x
+08:30:37   | Class A                  | 374              | 5.4514           |           0.76x
+08:30:37   | Class A                  | 580              | 5.9447           |           1.55x
+08:30:37   | Class A                  | 372              | 5.4688           |           0.64x
+08:30:37   | Class A                  | 439              | 5.6166           |           1.18x
+08:30:37   | Class A                  | 441              | 5.5375           |           1.00x
+08:30:37   | Class A                  | 459              | 5.6595           |           1.04x
+08:30:37   | Class A                  | 493              | 5.6067           |           1.07x
+08:30:37   | Class A                  | 403              | 5.5928           |           0.82x
+08:30:37   | Class A                  | 358              | 5.4534           |           0.89x
+08:30:37   | Class A                  | 455              | 5.4644           |           1.27x
+08:30:37   | Class A                  | 556              | 5.9299           |           1.22x
+08:30:37   | Class A                  | 455              | 5.5610           |           0.82x
+08:30:37   | Class A                  | 279              | 4.9932           |           0.61x
+08:30:37   | Class A                  | 476              | 5.5905           |           1.71x
+08:30:37   | Class A                  | 439              | 5.7086           |           0.92x
+08:30:37   | Class A                  | 383              | 5.4541           |           0.87x
+08:30:37   | Class A                  | 390              | 5.5697           |           1.02x
+08:30:37   | Class A                  | 487              | 5.7004           |           1.25x
+08:30:37   | Class A                  | 362              | 5.3035           |           0.74x
+08:30:37   | Class A                  | 428              | 5.7216           |           1.18x
+08:30:37   | Class A                  | 442              | 5.6073           |           1.03x
+08:30:37   | Class A                  | 344              | 5.2359           |           0.78x
+08:30:37   | Class A                  | 341              | 5.3332           |           0.99x
+08:30:37   | Class A                  | 491              | 5.5610           |           1.44x
+08:30:37   | Class A                  | 570              | 5.8874           |           1.16x
+08:30:38   | Class A                  | 537              | 5.8757           |           0.94x
+08:30:38   | Class A                  | 498              | 5.7007           |           0.93x
+08:30:38   | Class A                  | 518              | 5.7897           |           1.04x
+08:30:38   | Class A                  | 500              | 5.8007           |           0.97x
+08:30:38   | Class A                  | 526              | 5.6969           |           1.05x
+08:30:38   | Class A                  | 521              | 5.7623           |           0.99x
+08:30:38   | Class A                  | 395              | 5.5608           |           0.76x
+08:33:35   | Mr Nice                  | 113              | 3.9842           |           0.29x
+08:33:38   | Mr Nice                  | 213              | 4.9542           |           1.88x
+08:33:41   | Mr Nice                  | 91               | 3.8074           |           0.43x
+08:33:42   | Mr Nice                  | 113              | 3.9842           |           1.24x
+08:33:44   | Mr Nice                  | 372              | 5.5548           |           3.29x
+08:33:45   | Mr Nice                  | 306              | 5.2696           |           0.82x
+08:33:45   | Mr Nice                  | 113              | 3.9842           |           0.37x
+08:33:45   | Mr Nice                  | 91               | 3.8074           |           0.81x
+08:33:47   | Mr Nice                  | 91               | 3.8074           |           1.00x
+08:33:47   | Mr Nice                  | 304              | 5.3231           |           3.34x
+08:33:47   | Mr Nice                  | 264              | 5.1122           |           0.87x
+08:33:47   | Mr Nice                  | 91               | 3.8074           |           0.34x
+08:33:48   | Mr Nice                  | 91               | 3.8074           |           1.00x
+08:33:48   | Mr Nice                  | 113              | 3.9842           |           1.24x
+08:33:48   | Mr Nice                  | 113              | 3.9842           |           1.00x
+08:33:49   | Mr Nice                  | 431              | 5.6475           |           3.81x
+08:33:50   | Mr Nice                  | 296              | 5.1928           |           0.69x
+08:33:50   | Mr Nice                  | 115              | 4.2479           |           0.39x
+08:33:50   | Mr Nice                  | 316              | 5.0931           |           2.75x
+08:33:51   | Mr Nice                  | 113              | 3.9842           |           0.36x
+08:33:51   | Mr Nice                  | 91               | 3.8074           |           0.81x
+08:33:51   | Mr Nice                  | 358              | 5.4907           |           3.93x
+08:33:52   | Mr Nice                  | 113              | 3.9842           |           0.32x
+08:33:52   | Mr Nice                  | 113              | 3.9842           |           1.00x
+08:33:52   | Mr Nice                  | 115              | 4.2479           |           1.02x
+08:33:52   | Mr Nice                  | 300              | 5.2227           |           2.61x
+08:33:53   | Mr Nice                  | 91               | 3.8074           |           0.30x
+08:33:53   | Mr Nice                  | 330              | 5.2507           |           3.63x
+08:33:54   | Mr Nice                  | 294              | 5.4109           |           0.89x
+08:33:54   | Mr Nice                  | 314              | 5.2252           |           1.07x
+08:33:54   | Mr Nice                  | 377              | 5.4337           |           1.20x
+08:33:54   | Mr Nice                  | 363              | 5.4688           |           0.96x
+08:33:55   | Mr Nice                  | 115              | 4.2479           |           0.32x
+08:33:56   | Mr Nice                  | 113              | 3.9842           |           0.98x
+08:33:56   | Mr Nice                  | 308              | 5.2605           |           2.73x
+08:33:57   | Mr Nice                  | 113              | 3.9842           |           0.37x
+08:33:58   | Mr Nice                  | 115              | 4.2479           |           1.02x
+08:33:59   | Mr Nice                  | 113              | 3.9842           |           0.98x
+08:34:00   | Mr Nice                  | 113              | 3.9842           |           1.00x
+08:34:00   | Mr Nice                  | 91               | 3.8074           |           0.81x
+08:34:01   | Mr Nice                  | 115              | 4.2479           |           1.26x
+08:34:02   | Mr Nice                  | 113              | 3.9842           |           0.98x
+08:34:03   | Mr Nice                  | 258              | 5.0175           |           2.28x
+08:34:03   | Mr Nice                  | 115              | 4.2479           |           0.45x
+08:34:04   | Mr Nice                  | 91               | 3.8074           |           0.79x
+08:34:05   | Mr Nice                  | 115              | 4.2479           |           1.26x
+08:34:06   | Mr Nice                  | 115              | 4.2479           |           1.00x
+08:34:07   | Mr Nice                  | 91               | 3.8074           |           0.79x
+08:34:08   | Mr Nice                  | 113              | 3.9842           |           1.24x
+08:34:09   | Mr Nice                  | 115              | 4.2479           |           1.02x
+08:34:10   | Mr Nice                  | 113              | 3.9842           |           0.98x
+08:34:11   | Mr Nice                  | 91               | 3.8074           |           0.81x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.26x
+08:34:11   | Mr Nice                  | 91               | 3.8074           |           0.79x
+08:34:11   | Mr Nice                  | 113              | 3.9842           |           1.24x
+08:34:11   | Mr Nice                  | 113              | 3.9842           |           1.00x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.02x
+08:34:11   | Mr Nice                  | 91               | 3.8074           |           0.79x
+08:34:11   | Mr Nice                  | 91               | 3.8074           |           1.00x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.26x
+08:34:11   | Mr Nice                  | 113              | 3.9842           |           0.98x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.02x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.00x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.00x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.00x
+08:34:11   | Mr Nice                  | 113              | 3.9842           |           0.98x
+08:34:11   | Mr Nice                  | 91               | 3.8074           |           0.81x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.26x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.00x
+08:34:11   | Mr Nice                  | 113              | 3.9842           |           0.98x
+08:34:11   | Mr Nice                  | 113              | 3.9842           |           1.00x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.02x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.00x
+08:34:11   | Mr Nice                  | 113              | 3.9842           |           0.98x
+08:34:11   | Mr Nice                  | 91               | 3.8074           |           0.81x
+08:34:11   | Mr Nice                  | 113              | 3.9842           |           1.24x
+08:34:11   | Mr Nice                  | 91               | 3.8074           |           0.81x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.26x
+08:34:11   | Mr Nice                  | 113              | 3.9842           |           0.98x
+08:34:11   | Mr Nice                  | 91               | 3.8074           |           0.81x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.26x
+08:34:11   | Mr Nice                  | 91               | 3.8074           |           0.79x
+08:34:11   | Mr Nice                  | 91               | 3.8074           |           1.00x
+08:34:11   | Mr Nice                  | 115              | 4.2479           |           1.26x
+08:34:11   | Mr Nice                  | 113              | 3.9842           |           0.98x
+08:34:11   | Mr Nice                  | 91               | 3.8074           |           0.81x
+08:34:12   | Mr Nice                  | 334              | 5.3683           |           3.67x
+08:34:12   | Mr Nice                  | 328              | 5.2463           |           0.98x
+08:34:12   | Mr Nice                  | 277              | 5.1031           |           0.84x
+08:34:12   | Mr Nice                  | 312              | 5.4600           |           1.13x
+08:34:12   | Mr Nice                  | 418              | 5.6161           |           1.34x
+08:34:12   | Mr Nice                  | 272              | 5.1624           |           0.65x
+08:34:12   | Mr Nice                  | 285              | 5.0503           |           1.05x
+08:34:12   | Mr Nice                  | 347              | 5.4842           |           1.22x
+08:34:12   | Mr Nice                  | 289              | 5.1828           |           0.83x
+08:34:12   | Mr Nice                  | 308              | 5.2252           |           1.07x
+08:34:12   | Mr Nice                  | 363              | 5.3833           |           1.18x
+08:34:12   | Mr Nice                  | 300              | 5.3059           |           0.83x
+08:34:12   | Mr Nice                  | 320              | 5.3097           |           1.07x
+08:34:12   | Mr Nice                  | 355              | 5.4167           |           1.11x
+08:34:12   | Mr Nice                  | 303              | 5.3332           |           0.85x
+08:34:12   | Mr Nice                  | 304              | 5.4030           |           1.00x
+08:34:12   | Mr Nice                  | 406              | 5.5612           |           1.34x
+08:34:12   | Mr Nice                  | 425              | 5.5036           |           1.05x
+08:34:12   | Mr Nice                  | 259              | 4.7531           |           0.61x
+08:34:12   | Mr Nice                  | 208              | 4.8020           |           0.80x
+08:34:12   | Mr Nice                  | 322              | 5.2828           |           1.55x
+08:34:12   | Mr Nice                  | 328              | 5.3778           |           1.02x
+08:34:12   | Mr Nice                  | 413              | 5.7889           |           1.26x
+08:34:12   | Mr Nice                  | 332              | 5.3258           |           0.80x
+08:34:12   | Mr Nice                  | 358              | 5.3587           |           1.08x
+08:34:12   | Mr Nice                  | 374              | 5.5931           |           1.04x
+08:34:12   | Mr Nice                  | 367              | 5.3390           |           0.98x
+08:34:12   | Mr Nice                  | 298              | 5.3062           |           0.81x
+08:34:12   | Mr Nice                  | 253              | 5.2112           |           0.85x
+08:34:12   | Mr Nice                  | 304              | 5.1928           |           1.20x
+08:34:12   | Mr Nice                  | 367              | 5.4423           |           1.21x
+08:34:12   | Mr Nice                  | 324              | 5.3290           |           0.88x
+08:34:12   | Mr Nice                  | 332              | 5.4791           |           1.02x
+08:34:12   | Mr Nice                  | 353              | 5.1947           |           1.06x
+08:34:12   | Mr Nice                  | 286              | 5.2719           |           0.81x
+08:34:12   | Mr Nice                  | 382              | 5.6817           |           1.34x
+08:34:12   | Mr Nice                  | 273              | 4.9777           |           0.71x
+08:34:12   | Mr Nice                  | 333              | 5.2618           |           1.22x
+08:34:12   | Mr Nice                  | 266              | 4.9823           |           0.80x
+08:34:12   | Mr Nice                  | 316              | 5.2832           |           1.19x
+08:34:12   | Mr Nice                  | 279              | 5.1069           |           0.88x
+08:34:12   | Mr Nice                  | 348              | 5.3543           |           1.25x
+08:34:12   | Mr Nice                  | 357              | 5.3317           |           1.03x
+08:34:12   | Mr Nice                  | 351              | 5.4111           |           0.98x
+08:34:12   | Mr Nice                  | 398              | 5.5306           |           1.13x
+08:34:12   | Mr Nice                  | 325              | 5.2973           |           0.82x
+08:34:12   | Mr Nice                  | 287              | 5.0191           |           0.88x
+08:34:12   | Mr Nice                  | 317              | 5.4269           |           1.10x
+08:34:13   | Mr Nice                  | 113              | 3.9842           |           0.36x
+08:34:13   | Mr Nice                  | 301              | 5.1542           |           2.66x
+08:34:13   | Mr Nice                  | 353              | 5.3384           |           1.17x
+08:34:14   | Mr Nice                  | 91               | 3.8074           |           0.26x
+08:34:15   | Mr Nice                  | 91               | 3.8074           |           1.00x
+08:34:15   | Mr Nice                  | 115              | 4.2479           |           1.26x
+08:34:15   | Mr Nice                  | 337              | 5.3253           |           2.93x
+08:34:16   | Mr Nice                  | 113              | 3.9842           |           0.34x
+08:34:16   | Mr Nice                  | 250              | 5.0721           |           2.21x
+08:34:17   | Mr Nice                  | 91               | 3.8074           |           0.36x
+08:34:17   | Mr Nice                  | 368              | 5.4730           |           4.04x
+08:34:17   | Mr Nice                  | 236              | 4.9392           |           0.64x
+08:34:18   | Mr Nice                  | 113              | 3.9842           |           0.48x
+08:38:01   | Ozymandias               | 115              | 4.2219           |           1.02x
+08:38:04   | Ozymandias               | 107              | 3.9698           |           0.93x
+08:38:04   | Ozymandias               | 249              | 4.9074           |           2.33x
+08:38:07   | Ozymandias               | 301              | 5.3035           |           1.21x
+08:38:09   | Ozymandias               | 415              | 5.4185           |           1.38x
+08:38:10   | Ozymandias               | 382              | 5.5332           |           0.92x
+08:38:10   | Ozymandias               | 107              | 3.9698           |           0.28x
+08:38:10   | Ozymandias               | 384              | 5.4062           |           3.59x
+08:38:11   | Ozymandias               | 107              | 3.9698           |           0.28x
+08:38:12   | Ozymandias               | 272              | 5.1472           |           2.54x
+08:38:13   | Ozymandias               | 407              | 5.2889           |           1.50x
+08:38:13   | Ozymandias               | 323              | 5.1317           |           0.79x
+08:38:13   | Ozymandias               | 115              | 4.2219           |           0.36x
+08:38:14   | Ozymandias               | 336              | 5.1446           |           2.92x
+08:38:14   | Ozymandias               | 318              | 5.2305           |           0.95x
+08:38:15   | Ozymandias               | 107              | 3.9698           |           0.34x
+08:38:15   | Ozymandias               | 115              | 4.2219           |           1.07x
+08:38:16   | Ozymandias               | 286              | 5.2095           |           2.49x
+08:38:16   | Ozymandias               | 162              | 4.4537           |           0.57x
+08:38:16   | Ozymandias               | 162              | 4.4537           |           1.00x
+08:38:17   | Ozymandias               | 107              | 3.9698           |           0.66x
+08:38:18   | Ozymandias               | 411              | 5.3834           |           3.84x
+08:38:18   | Ozymandias               | 295              | 5.1593           |           0.72x
+08:38:18   | Ozymandias               | 115              | 4.2219           |           0.39x
+08:38:19   | Ozymandias               | 359              | 5.1420           |           3.12x
+08:38:19   | Ozymandias               | 329              | 5.4475           |           0.92x
+08:38:19   | Ozymandias               | 107              | 3.9698           |           0.33x
+08:38:20   | Ozymandias               | 314              | 5.0183           |           2.93x
+08:38:20   | Ozymandias               | 162              | 4.4537           |           0.52x
+08:38:20   | Ozymandias               | 107              | 3.9698           |           0.66x
+08:38:21   | Ozymandias               | 270              | 4.9526           |           2.52x
+08:38:21   | Ozymandias               | 115              | 4.2219           |           0.43x
+08:38:22   | Ozymandias               | 395              | 5.3878           |           3.43x
+08:38:23   | Ozymandias               | 362              | 5.3825           |           0.92x
+08:38:23   | Ozymandias               | 377              | 5.2899           |           1.04x
+08:38:23   | Ozymandias               | 115              | 4.2219           |           0.31x
+08:38:23   | Ozymandias               | 115              | 4.2219           |           1.00x
+08:38:23   | Ozymandias               | 107              | 3.9698           |           0.93x
+08:38:24   | Ozymandias               | 309              | 5.1711           |           2.89x
+08:38:24   | Ozymandias               | 115              | 4.2219           |           0.37x
+08:38:24   | Ozymandias               | 162              | 4.4537           |           1.41x
+08:38:24   | Ozymandias               | 107              | 3.9698           |           0.66x
+08:38:24   | Ozymandias               | 162              | 4.4537           |           1.51x
+08:38:25   | Ozymandias               | 115              | 4.2219           |           0.71x
+08:38:25   | Ozymandias               | 162              | 4.4537           |           1.41x
+08:38:26   | Ozymandias               | 218              | 4.6254           |           1.35x
+08:38:26   | Ozymandias               | 375              | 5.2083           |           1.72x
+08:38:26   | Ozymandias               | 115              | 4.2219           |           0.31x
+08:38:27   | Ozymandias               | 337              | 5.3398           |           2.93x
+08:38:27   | Ozymandias               | 457              | 5.4887           |           1.36x
+08:38:27   | Ozymandias               | 414              | 5.1601           |           0.91x
+08:38:27   | Ozymandias               | 368              | 5.3215           |           0.89x
+08:38:27   | Ozymandias               | 417              | 5.4900           |           1.13x
+08:38:27   | Ozymandias               | 107              | 3.9698           |           0.26x
+08:38:27   | Ozymandias               | 115              | 4.2219           |           1.07x
+08:38:28   | Ozymandias               | 394              | 5.5747           |           3.43x
+08:38:29   | Ozymandias               | 107              | 3.9698           |           0.27x
+08:38:30   | Ozymandias               | 107              | 3.9698           |           1.00x
+08:38:30   | Ozymandias               | 115              | 4.2219           |           1.07x
+08:38:30   | Ozymandias               | 426              | 5.5995           |           3.70x
+08:38:30   | Ozymandias               | 349              | 5.3123           |           0.82x
+08:38:30   | Ozymandias               | 162              | 4.4537           |           0.46x
+08:38:30   | Ozymandias               | 107              | 3.9698           |           0.66x
+08:38:30   | Ozymandias               | 115              | 4.2219           |           1.07x
+08:38:31   | Ozymandias               | 107              | 3.9698           |           0.93x
+08:38:31   | Ozymandias               | 107              | 3.9698           |           1.00x
+08:38:32   | Ozymandias               | 455              | 5.6263           |           4.25x
+08:38:33   | Ozymandias               | 356              | 5.3353           |           0.78x
+08:38:33   | Ozymandias               | 305              | 5.1020           |           0.86x
+08:38:33   | Ozymandias               | 410              | 5.2828           |           1.34x
+08:38:33   | Ozymandias               | 363              | 5.2891           |           0.89x
+08:38:33   | Ozymandias               | 373              | 5.1659           |           1.03x
+08:38:33   | Ozymandias               | 115              | 4.2219           |           0.31x
+08:38:34   | Ozymandias               | 288              | 5.0103           |           2.50x
+08:38:34   | Ozymandias               | 115              | 4.2219           |           0.40x
+08:38:36   | Ozymandias               | 162              | 4.4537           |           1.41x
+08:38:36   | Ozymandias               | 362              | 5.3134           |           2.23x
+08:38:36   | Ozymandias               | 228              | 4.8436           |           0.63x
+08:38:37   | Ozymandias               | 107              | 3.9698           |           0.47x
+08:38:37   | Ozymandias               | 162              | 4.4537           |           1.51x
+08:38:38   | Ozymandias               | 115              | 4.2219           |           0.71x
+08:38:38   | Ozymandias               | 343              | 5.3576           |           2.98x
+08:38:38   | Ozymandias               | 162              | 4.4537           |           0.47x
+08:38:39   | Ozymandias               | 107              | 3.9698           |           0.66x
+08:38:39   | Ozymandias               | 364              | 5.2926           |           3.40x
+08:38:40   | Ozymandias               | 115              | 4.2219           |           0.32x
+08:38:40   | Ozymandias               | 162              | 4.4537           |           1.41x
+08:38:40   | Ozymandias               | 331              | 5.3143           |           2.04x
+08:38:40   | Ozymandias               | 392              | 5.4410           |           1.18x
+08:38:41   | Ozymandias               | 107              | 3.9698           |           0.27x
+08:38:41   | Ozymandias               | 115              | 4.2219           |           1.07x
+08:38:41   | Ozymandias               | 379              | 5.3232           |           3.30x
+08:38:42   | Ozymandias               | 311              | 5.1799           |           0.82x
+08:38:42   | Ozymandias               | 162              | 4.4537           |           0.52x
+08:38:42   | Ozymandias               | 335              | 5.2084           |           2.07x
+08:38:42   | Ozymandias               | 358              | 5.3566           |           1.07x
+08:38:43   | Ozymandias               | 115              | 4.2219           |           0.32x
+08:38:43   | Ozymandias               | 162              | 4.4537           |           1.41x
+09:06:42   | Clear Air Turbulence     | 836              | 6.5850           |           5.16x
+09:06:44   | Ozymandias               | 115              | 4.2219           |           0.14x
+09:06:47   | Clear Air Turbulence     | 97               | 4.0588           |           0.84x
+09:06:47   | Ozymandias               | 444              | 5.2626           |           4.58x
+09:06:48   | Ozymandias               | 107              | 3.9698           |           0.24x
+09:06:49   | Clear Air Turbulence     | 97               | 4.0588           |           0.91x
+09:06:50   | Clear Air Turbulence     | 978              | 6.6365           |          10.08x
+09:06:50   | Clear Air Turbulence     | 97               | 4.0588           |           0.10x
+09:06:50   | Ozymandias               | 162              | 4.4537           |           1.67x
+09:06:51   | Ozymandias               | 293              | 4.9362           |           1.81x
+09:06:51   | Ozymandias               | 115              | 4.2219           |           0.39x
+09:06:51   | Ozymandias               | 115              | 4.2219           |           1.00x
+09:06:52   | Clear Air Turbulence     | 97               | 4.0588           |           0.84x
+09:06:53   | Clear Air Turbulence     | 764              | 6.1860           |           7.88x
+09:06:53   | Clear Air Turbulence     | 97               | 4.0588           |           0.13x
+09:06:53   | Ozymandias               | 107              | 3.9698           |           1.10x
+09:06:54   | Clear Air Turbulence     | 105              | 4.1427           |           0.98x
+09:06:54   | Clear Air Turbulence     | 965              | 6.4474           |           9.19x
+09:06:54   | Ozymandias               | 368              | 5.2035           |           0.38x
+09:06:54   | Ozymandias               | 383              | 5.2232           |           1.04x
+09:06:54   | Ozymandias               | 115              | 4.2219           |           0.30x
+09:06:54   | Ozymandias               | 115              | 4.2219           |           1.00x
+09:06:55   | Clear Air Turbulence     | 105              | 4.1427           |           0.91x
+09:06:55   | Ozymandias               | 115              | 4.2219           |           1.10x
+09:06:55   | Ozymandias               | 162              | 4.4537           |           1.41x
+09:06:56   | Ozymandias               | 115              | 4.2219           |           0.71x
+09:06:57   | Clear Air Turbulence     | 94               | 3.9069           |           0.82x
+09:06:57   | Ozymandias               | 322              | 5.1792           |           3.43x
+09:06:57   | Ozymandias               | 353              | 5.4232           |           1.10x
+09:06:58   | Clear Air Turbulence     | 105              | 4.1427           |           0.30x
+09:06:58   | Clear Air Turbulence     | 854              | 6.5295           |           8.13x
+09:06:58   | Clear Air Turbulence     | 868              | 6.2089           |           1.02x
+09:06:58   | Clear Air Turbulence     | 1033             | 6.6554           |           1.19x
+09:06:58   | Ozymandias               | 290              | 5.1503           |           0.28x
+09:06:58   | Ozymandias               | 427              | 5.6538           |           1.47x
+09:06:58   | Ozymandias               | 107              | 3.9698           |           0.25x
+09:06:59   | Clear Air Turbulence     | 105              | 4.1427           |           0.98x
+09:06:59   | Ozymandias               | 342              | 5.4054           |           3.26x
+09:06:59   | Ozymandias               | 107              | 3.9698           |           0.31x
+09:07:00   | Clear Air Turbulence     | 105              | 4.1427           |           0.98x
+09:07:00   | Ozymandias               | 162              | 4.4537           |           1.54x
+09:07:00   | Ozymandias               | 107              | 3.9698           |           0.66x
+09:07:00   | Ozymandias               | 107              | 3.9698           |           1.00x
+09:07:00   | Ozymandias               | 162              | 4.4537           |           1.51x
+09:07:01   | Clear Air Turbulence     | 97               | 4.0588           |           0.60x
+09:07:01   | Ozymandias               | 274              | 5.0138           |           2.82x
+09:07:01   | Ozymandias               | 107              | 3.9698           |           0.39x
+09:07:02   | Clear Air Turbulence     | 94               | 3.9069           |           0.88x
+09:07:02   | Ozymandias               | 301              | 5.1095           |           3.20x
+09:07:02   | Ozymandias               | 332              | 5.0675           |           1.10x
+09:07:02   | Ozymandias               | 484              | 5.5748           |           1.46x
+09:07:02   | Ozymandias               | 361              | 5.3429           |           0.75x
+09:07:03   | Clear Air Turbulence     | 97               | 4.0588           |           0.27x
+09:07:03   | Ozymandias               | 162              | 4.4537           |           1.67x
+09:07:03   | Ozymandias               | 229              | 4.8924           |           1.41x
+09:07:04   | Clear Air Turbulence     | 838              | 6.4064           |           3.66x
+09:07:04   | Ozymandias               | 107              | 3.9698           |           0.13x
+09:07:05   | Clear Air Turbulence     | 875              | 6.5497           |           8.18x
+09:07:05   | Clear Air Turbulence     | 94               | 3.9069           |           0.11x
+09:07:05   | Ozymandias               | 107              | 3.9698           |           1.14x
+09:07:05   | Ozymandias               | 262              | 4.8927           |           2.45x
+09:07:05   | Ozymandias               | 107              | 3.9698           |           0.41x
+09:07:06   | Clear Air Turbulence     | 950              | 6.4283           |           8.88x
+09:07:06   | Clear Air Turbulence     | 105              | 4.1427           |           0.11x
+09:07:06   | Clear Air Turbulence     | 1146             | 6.7452           |          10.91x
+09:07:06   | Ozymandias               | 248              | 4.9531           |           0.22x
+09:07:07   | Clear Air Turbulence     | 94               | 3.9069           |           0.38x
+09:07:07   | Ozymandias               | 115              | 4.2219           |           1.22x
+09:07:07   | Ozymandias               | 162              | 4.4537           |           1.41x
+09:07:07   | Ozymandias               | 355              | 5.1366           |           2.19x
+09:07:08   | Clear Air Turbulence     | 97               | 4.0588           |           0.27x
+09:07:08   | Ozymandias               | 107              | 3.9698           |           1.10x
+09:07:08   | Ozymandias               | 115              | 4.2219           |           1.07x
+09:07:08   | Ozymandias               | 162              | 4.4537           |           1.41x
+09:07:08   | Ozymandias               | 381              | 5.3222           |           2.35x
+09:07:09   | Clear Air Turbulence     | 1049             | 6.7103           |           2.75x
+09:07:09   | Clear Air Turbulence     | 94               | 3.9069           |           0.09x
+09:07:09   | Ozymandias               | 115              | 4.2219           |           1.22x
+09:07:09   | Ozymandias               | 404              | 5.4198           |           3.51x
+09:07:09   | Ozymandias               | 299              | 4.8880           |           0.74x
+09:07:10   | Clear Air Turbulence     | 907              | 6.4508           |           3.03x
+09:07:10   | Clear Air Turbulence     | 94               | 3.9069           |           0.10x
+09:07:10   | Ozymandias               | 107              | 3.9698           |           1.14x
+09:07:10   | Ozymandias               | 115              | 4.2219           |           1.07x
+09:07:10   | Ozymandias               | 326              | 5.4658           |           2.83x
+09:07:10   | Ozymandias               | 403              | 5.5451           |           1.24x
+09:07:11   | Clear Air Turbulence     | 97               | 4.0588           |           0.24x
+09:07:11   | Ozymandias               | 373              | 4.9549           |           3.85x
+09:07:11   | Ozymandias               | 107              | 3.9698           |           0.29x
+09:07:12   | Clear Air Turbulence     | 94               | 3.9069           |           0.88x
+09:07:12   | Ozymandias               | 107              | 3.9698           |           1.14x
+09:07:12   | Ozymandias               | 162              | 4.4537           |           1.51x
+09:07:12   | Ozymandias               | 315              | 5.2089           |           1.94x
+09:07:12   | Ozymandias               | 394              | 5.1929           |           1.25x
+09:07:13   | Clear Air Turbulence     | 936              | 6.6029           |           2.38x
+09:07:13   | Clear Air Turbulence     | 94               | 3.9069           |           0.10x
+09:07:13   | Clear Air Turbulence     | 905              | 6.5017           |           9.63x
+09:07:13   | Ozymandias               | 366              | 5.1852           |           0.40x
+09:07:13   | Ozymandias               | 115              | 4.2219           |           0.31x
+09:07:13   | Ozymandias               | 263              | 5.2315           |           2.29x
+09:07:14   | Clear Air Turbulence     | 1000             | 6.5034           |           3.80x
+09:07:14   | Clear Air Turbulence     | 105              | 4.1427           |           0.10x
+09:07:14   | Ozymandias               | 162              | 4.4537           |           1.54x
+09:07:14   | Ozymandias               | 285              | 5.0514           |           1.76x
+09:07:15   | Clear Air Turbulence     | 105              | 4.1427           |           0.37x
+09:07:15   | Ozymandias               | 162              | 4.4537           |           1.54x
+09:07:15   | Ozymandias               | 107              | 3.9698           |           0.66x
+09:07:15   | Ozymandias               | 107              | 3.9698           |           1.00x
+09:07:15   | Ozymandias               | 362              | 4.9889           |           3.38x
+09:07:16   | Clear Air Turbulence     | 617              | 6.1992           |           1.70x
+09:07:16   | Clear Air Turbulence     | 97               | 4.0588           |           0.16x
+09:07:16   | Ozymandias               | 115              | 4.2219           |           1.19x
+09:07:16   | Ozymandias               | 318              | 5.2099           |           2.77x
+09:07:16   | Ozymandias               | 162              | 4.4537           |           0.51x
+09:07:16   | Ozymandias               | 297              | 5.0179           |           1.83x
+09:07:17   | Clear Air Turbulence     | 94               | 3.9069           |           0.32x
+09:07:17   | Ozymandias               | 162              | 4.4537           |           1.72x
+09:07:17   | Ozymandias               | 162              | 4.4537           |           1.00x
+09:07:17   | Ozymandias               | 311              | 5.0952           |           1.92x
+09:07:17   | Ozymandias               | 359              | 5.4470           |           1.15x
+09:07:18   | Clear Air Turbulence     | 852              | 6.4661           |           2.37x
+09:07:18   | Clear Air Turbulence     | 94               | 3.9069           |           0.11x
+09:07:18   | Ozymandias               | 325              | 5.0268           |           3.46x
+09:07:18   | Ozymandias               | 115              | 4.2219           |           0.35x
+09:07:18   | Ozymandias               | 247              | 5.1316           |           2.15x
+09:07:18   | Ozymandias               | 380              | 5.3777           |           1.54x
+09:07:19   | Clear Air Turbulence     | 648              | 6.2535           |           1.71x
+09:07:19   | Clear Air Turbulence     | 94               | 3.9069           |           0.15x
+09:07:19   | Ozymandias               | 115              | 4.2219           |           1.22x
+09:07:20   | Clear Air Turbulence     | 94               | 3.9069           |           0.82x
+09:07:20   | Ozymandias               | 162              | 4.4537           |           1.72x
+09:07:20   | Ozymandias               | 107              | 3.9698           |           0.66x
+09:07:20   | Ozymandias               | 107              | 3.9698           |           1.00x
+09:07:20   | Ozymandias               | 423              | 5.5055           |           3.95x
+09:07:20   | Ozymandias               | 249              | 5.1031           |           0.59x
+09:07:21   | Clear Air Turbulence     | 914              | 6.6183           |           3.67x
+09:07:21   | Clear Air Turbulence     | 1037             | 6.7314           |           1.13x
+09:07:21   | Clear Air Turbulence     | 1139             | 6.7806           |           1.10x
+09:07:21   | Clear Air Turbulence     | 105              | 4.1427           |           0.09x
+09:07:21   | Ozymandias               | 115              | 4.2219           |           1.10x
+09:07:22   | Clear Air Turbulence     | 926              | 6.6228           |           8.05x
+09:07:22   | Clear Air Turbulence     | 97               | 4.0588           |           0.10x
+09:07:22   | Ozymandias               | 548              | 5.6663           |           5.65x
+09:07:22   | Ozymandias               | 115              | 4.2219           |           0.21x
+09:07:22   | Ozymandias               | 397              | 5.3001           |           3.45x
+09:07:22   | Ozymandias               | 115              | 4.2219           |           0.29x
+09:07:22   | Ozymandias               | 107              | 3.9698           |           0.93x
+09:07:23   | Clear Air Turbulence     | 94               | 3.9069           |           0.88x
+09:07:23   | Ozymandias               | 107              | 3.9698           |           1.14x
+09:07:23   | Ozymandias               | 348              | 5.3067           |           3.25x
+09:07:23   | Ozymandias               | 162              | 4.4537           |           0.47x
+09:07:23   | Ozymandias               | 397              | 5.2445           |           2.45x
+09:07:24   | Clear Air Turbulence     | 688              | 6.1153           |           1.73x
+09:07:24   | Clear Air Turbulence     | 105              | 4.1427           |           0.15x
+09:07:24   | Ozymandias               | 366              | 5.1089           |           3.49x
+09:07:24   | Ozymandias               | 107              | 3.9698           |           0.29x
+09:07:24   | Ozymandias               | 107              | 3.9698           |           1.00x
+09:07:25   | Ozymandias               | 115              | 4.2219           |           1.07x
+09:07:25   | Ozymandias               | 449              | 5.4489           |           3.90x
+09:07:27   | Clear Air Turbulence     | 105              | 4.1427           |           0.23x
+09:07:28   | Clear Air Turbulence     | 923              | 6.2941           |           8.79x
+09:07:28   | Clear Air Turbulence     | 1188             | 6.5652           |           1.29x
+09:07:29   | Clear Air Turbulence     | 105              | 4.1427           |           0.09x
+09:07:29   | Clear Air Turbulence     | 939              | 6.4551           |           8.94x
+09:07:29   | Clear Air Turbulence     | 924              | 6.5353           |           0.98x
+09:07:29   | Clear Air Turbulence     | 934              | 6.4980           |           1.01x
+09:07:30   | Clear Air Turbulence     | 94               | 3.9069           |           0.10x
+09:07:30   | Clear Air Turbulence     | 745              | 6.2508           |           7.93x
+09:07:31   | Clear Air Turbulence     | 97               | 4.0588           |           0.13x
+09:07:31   | Clear Air Turbulence     | 1046             | 6.5414           |          10.78x
+09:07:32   | Clear Air Turbulence     | 94               | 3.9069           |           0.09x
+09:07:33   | Clear Air Turbulence     | 865              | 6.4542           |           9.20x
+09:07:33   | Clear Air Turbulence     | 97               | 4.0588           |           0.11x
+09:07:34   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+09:07:34   | Clear Air Turbulence     | 105              | 4.1427           |           1.08x
+09:07:35   | Clear Air Turbulence     | 94               | 3.9069           |           0.90x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           1.03x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.08x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           0.92x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.08x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           0.92x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+09:07:35   | Clear Air Turbulence     | 94               | 3.9069           |           0.97x
+09:07:35   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:35   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.12x
+09:07:35   | Clear Air Turbulence     | 94               | 3.9069           |           0.90x
+09:07:35   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.12x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           0.92x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.08x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.00x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.00x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.00x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.00x
+09:07:35   | Clear Air Turbulence     | 94               | 3.9069           |           0.90x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           1.03x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.08x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.00x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.00x
+09:07:35   | Clear Air Turbulence     | 94               | 3.9069           |           0.90x
+09:07:35   | Clear Air Turbulence     | 97               | 4.0588           |           1.03x
+09:07:35   | Clear Air Turbulence     | 105              | 4.1427           |           1.08x
+09:07:36   | Clear Air Turbulence     | 97               | 4.0588           |           0.92x
+09:07:36   | Clear Air Turbulence     | 981              | 6.5085           |          10.11x
+09:07:36   | Clear Air Turbulence     | 97               | 4.0588           |           0.10x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           0.97x
+09:07:36   | Clear Air Turbulence     | 97               | 4.0588           |           1.03x
+09:07:36   | Clear Air Turbulence     | 105              | 4.1427           |           1.08x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           0.90x
+09:07:36   | Clear Air Turbulence     | 105              | 4.1427           |           1.12x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           0.90x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 105              | 4.1427           |           1.12x
+09:07:36   | Clear Air Turbulence     | 97               | 4.0588           |           0.92x
+09:07:36   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+09:07:36   | Clear Air Turbulence     | 105              | 4.1427           |           1.08x
+09:07:36   | Clear Air Turbulence     | 97               | 4.0588           |           0.92x
+09:07:36   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           0.97x
+09:07:36   | Clear Air Turbulence     | 97               | 4.0588           |           1.03x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           0.97x
+09:07:36   | Clear Air Turbulence     | 97               | 4.0588           |           1.03x
+09:07:36   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+09:07:36   | Clear Air Turbulence     | 105              | 4.1427           |           1.08x
+09:07:36   | Clear Air Turbulence     | 105              | 4.1427           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           0.90x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:36   | Clear Air Turbulence     | 105              | 4.1427           |           1.12x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           0.90x
+09:07:36   | Clear Air Turbulence     | 97               | 4.0588           |           1.03x
+09:07:36   | Clear Air Turbulence     | 94               | 3.9069           |           0.97x
+09:07:37   | Clear Air Turbulence     | 94               | 3.9069           |           1.00x
+09:07:37   | Clear Air Turbulence     | 781              | 6.3186           |           8.31x
+09:07:37   | Clear Air Turbulence     | 97               | 4.0588           |           0.12x
+09:07:37   | Clear Air Turbulence     | 97               | 4.0588           |           1.00x
+09:07:37   | Clear Air Turbulence     | 615              | 6.1073           |           6.34x
+09:07:37   | Clear Air Turbulence     | 97               | 4.0588           |           0.16x
+09:07:37   | Clear Air Turbulence     | 94               | 3.9069           |           0.97x
+09:07:37   | Clear Air Turbulence     | 660              | 6.2177           |           7.02x
+09:07:37   | Clear Air Turbulence     | 967              | 6.4962           |           1.47x
+09:07:37   | Clear Air Turbulence     | 763              | 6.4883           |           0.79x
+09:07:37   | Clear Air Turbulence     | 105              | 4.1427           |           0.14x
+09:07:37   | Clear Air Turbulence     | 672              | 6.1413           |           6.40x
+09:07:37   | Clear Air Turbulence     | 835              | 6.3962           |           1.24x
+09:07:37   | Clear Air Turbulence     | 856              | 6.1918           |           1.03x
+09:07:37   | Clear Air Turbulence     | 795              | 6.5241           |           0.93x
+09:07:37   | Clear Air Turbulence     | 1069             | 6.7584           |           1.34x
+09:07:37   | Clear Air Turbulence     | 840              | 6.5517           |           0.79x
+09:07:37   | Clear Air Turbulence     | 1014             | 6.5783           |           1.21x
+09:07:37   | Clear Air Turbulence     | 829              | 6.3822           |           0.82x
+09:07:37   | Clear Air Turbulence     | 757              | 6.1878           |           0.91x
+09:07:37   | Clear Air Turbulence     | 1086             | 6.6763           |           1.43x
+09:07:37   | Clear Air Turbulence     | 816              | 6.3537           |           0.75x
+09:07:37   | Clear Air Turbulence     | 1034             | 6.7818           |           1.27x
+09:07:37   | Clear Air Turbulence     | 1129             | 6.7662           |           1.09x
+09:07:37   | Clear Air Turbulence     | 681              | 6.2758           |           0.60x
+09:07:38   | Clear Air Turbulence     | 982              | 6.6816           |           1.44x
+09:07:38   | Clear Air Turbulence     | 658              | 6.2404           |           0.67x
+09:07:38   | Clear Air Turbulence     | 985              | 6.7825           |           1.50x
+09:07:38   | Clear Air Turbulence     | 906              | 6.5683           |           0.92x
+09:07:38   | Clear Air Turbulence     | 1118             | 6.7027           |           1.23x
+09:07:38   | Clear Air Turbulence     | 1005             | 6.5045           |           0.90x
+09:07:38   | Clear Air Turbulence     | 989              | 6.8250           |           0.98x
+09:07:38   | Clear Air Turbulence     | 917              | 6.5144           |           0.93x
+09:07:38   | Clear Air Turbulence     | 875              | 6.4404           |           0.95x
+09:07:38   | Clear Air Turbulence     | 892              | 6.3779           |           1.02x
+09:07:38   | Clear Air Turbulence     | 823              | 6.3444           |           0.92x
+09:07:38   | Clear Air Turbulence     | 1065             | 6.7157           |           1.29x
+09:07:38   | Clear Air Turbulence     | 860              | 6.4549           |           0.81x
+09:07:38   | Clear Air Turbulence     | 945              | 6.5387           |           1.10x
+09:07:38   | Clear Air Turbulence     | 952              | 6.4819           |           1.01x
+09:07:38   | Clear Air Turbulence     | 928              | 6.4807           |           0.97x
+09:07:38   | Clear Air Turbulence     | 941              | 6.4983           |           1.01x
+09:07:38   | Clear Air Turbulence     | 888              | 6.5740           |           0.94x
+09:07:38   | Clear Air Turbulence     | 787              | 6.2978           |           0.89x
+09:07:38   | Clear Air Turbulence     | 838              | 6.3766           |           1.06x
+09:07:38   | Clear Air Turbulence     | 993              | 6.4719           |           1.18x
+09:07:38   | Clear Air Turbulence     | 898              | 6.5161           |           0.90x
+09:07:38   | Clear Air Turbulence     | 806              | 6.3564           |           0.90x
+09:07:38   | Clear Air Turbulence     | 894              | 6.6122           |           1.11x
+09:07:38   | Clear Air Turbulence     | 1008             | 6.4859           |           1.13x
+09:07:38   | Clear Air Turbulence     | 999              | 6.5787           |           0.99x
+09:07:38   | Clear Air Turbulence     | 997              | 6.4184           |           1.00x
+09:07:38   | Clear Air Turbulence     | 1058             | 6.4775           |           1.06x
+09:07:38   | Clear Air Turbulence     | 975              | 6.5265           |           0.92x
+09:07:38   | Clear Air Turbulence     | 877              | 6.4797           |           0.90x
+09:07:38   | Clear Air Turbulence     | 949              | 6.5414           |           1.08x
+09:07:38   | Clear Air Turbulence     | 853              | 6.3877           |           0.90x
+09:07:38   | Clear Air Turbulence     | 1072             | 6.7418           |           1.26x
+09:07:39   | Clear Air Turbulence     | 595              | 6.1377           |           0.56x
+11:18:33   | Ozymandias               | 107              | 3.9698           |           0.18x
+11:18:36   | Ozymandias               | 115              | 4.2219           |           1.07x
+11:18:36   | Ozymandias               | 288              | 5.1241           |           2.50x
+11:18:39   | Ozymandias               | 263              | 4.8200           |           0.91x
+11:18:39   | Ozymandias               | 115              | 4.2219           |           0.44x
+11:18:40   | Ozymandias               | 107              | 3.9698           |           0.93x
+11:18:42   | Ozymandias               | 317              | 5.1569           |           2.96x
+11:18:43   | Ozymandias               | 471              | 5.6800           |           1.49x
+11:18:43   | Ozymandias               | 115              | 4.2219           |           0.24x
+11:18:43   | Ozymandias               | 107              | 3.9698           |           0.93x
+11:18:44   | Ozymandias               | 162              | 4.4537           |           1.51x
+11:18:44   | Ozymandias               | 115              | 4.2219           |           0.71x
+11:38:31   | Mr Nice                  | 115              | 4.2479           |           1.00x
+11:38:33   | Mr Nice                  | 414              | 5.6075           |           3.60x
+11:38:36   | Mr Nice                  | 115              | 4.2479           |           0.28x
+11:38:37   | Mr Nice                  | 91               | 3.8074           |           0.79x
+11:38:39   | Mr Nice                  | 115              | 4.2479           |           1.26x
+11:38:40   | Mr Nice                  | 115              | 4.2479           |           1.00x
+11:38:40   | Mr Nice                  | 393              | 5.6610           |           3.42x
+11:38:43   | Mr Nice                  | 334              | 5.0770           |           0.85x
+11:38:43   | Mr Nice                  | 319              | 5.0596           |           0.96x
+11:38:43   | Mr Nice                  | 91               | 3.8074           |           0.29x
+13:07:25   | Clear Air Turbulence     | 97               | 4.0588           |           1.07x
+13:07:27   | Clear Air Turbulence     | 105              | 4.1427           |           1.08x
+13:07:28   | Clear Air Turbulence     | 122              | 4.1427           |           1.16x
+13:07:32   | Clear Air Turbulence     | 1036             | 6.5978           |           8.49x
+13:07:34   | Clear Air Turbulence     | 1225             | 6.6719           |           1.18x
+13:07:50   | Clear Air Turbulence     | 120              | 4.2018           |           0.10x
+13:07:55   | Clear Air Turbulence     | 935              | 6.3440           |           7.79x
+14:31:41   | Mr Nice                  | 672              | 6.2754           |           0.72x
+14:31:44   | Mr Nice                  | 91               | 3.8074           |           0.14x
+14:31:47   | Mr Nice                  | 311              | 5.0410           |           3.42x
+14:31:47   | Mr Nice                  | 91               | 3.8074           |           0.29x
+14:31:47   | Mr Nice                  | 115              | 4.2479           |           1.26x
+14:31:49   | Mr Nice                  | 344              | 5.3952           |           2.99x
+14:31:50   | Mr Nice                  | 115              | 4.2479           |           0.33x
+14:31:50   | Mr Nice                  | 115              | 4.2479           |           1.00x
+14:31:50   | Mr Nice                  | 91               | 3.8074           |           0.79x
+14:31:50   | Mr Nice                  | 251              | 4.9584           |           2.76x
+14:31:52   | Mr Nice                  | 305              | 5.2495           |           1.22x
+14:31:52   | Mr Nice                  | 336              | 5.4039           |           1.10x
+14:31:52   | Mr Nice                  | 326              | 5.4269           |           0.97x
+14:31:53   | Mr Nice                  | 115              | 4.2479           |           0.35x
+14:31:53   | Mr Nice                  | 91               | 3.8074           |           0.79x
+14:31:54   | Mr Nice                  | 113              | 3.9842           |           1.24x
+14:31:54   | Mr Nice                  | 113              | 3.9842           |           1.00x
+14:31:55   | Mr Nice                  | 352              | 5.5331           |           3.12x
+14:31:55   | Mr Nice                  | 417              | 5.6578           |           1.18x
+14:31:55   | Mr Nice                  | 91               | 3.8074           |           0.22x
+14:31:56   | Mr Nice                  | 414              | 5.4882           |           4.55x
+14:31:57   | Mr Nice                  | 465              | 5.6590           |           1.12x
+14:31:57   | Mr Nice                  | 91               | 3.8074           |           0.20x
+14:31:57   | Mr Nice                  | 297              | 5.1066           |           3.26x
+14:31:58   | Mr Nice                  | 113              | 3.9842           |           0.38x
+14:31:58   | Mr Nice                  | 115              | 4.2479           |           1.02x
+14:31:58   | Mr Nice                  | 91               | 3.8074           |           0.79x
+14:31:58   | Mr Nice                  | 91               | 3.8074           |           1.00x
+14:31:58   | Mr Nice                  | 241              | 5.1219           |           2.65x
+14:31:58   | Mr Nice                  | 91               | 3.8074           |           0.38x
+14:31:59   | Mr Nice                  | 113              | 3.9842           |           1.24x
+14:31:59   | Mr Nice                  | 113              | 3.9842           |           1.00x
+14:32:00   | Mr Nice                  | 335              | 5.2933           |           2.96x
+14:32:00   | Mr Nice                  | 360              | 5.4266           |           1.07x
+14:32:00   | Mr Nice                  | 340              | 5.2993           |           0.94x
+14:32:00   | Mr Nice                  | 401              | 5.4688           |           1.18x
+14:32:01   | Mr Nice                  | 329              | 5.3317           |           0.82x
+14:32:01   | Mr Nice                  | 247              | 5.0290           |           0.75x
+14:32:01   | Mr Nice                  | 91               | 3.8074           |           0.37x
+14:32:01   | Mr Nice                  | 115              | 4.2479           |           1.26x
+14:32:01   | Mr Nice                  | 113              | 3.9842           |           0.98x
+14:32:02   | Mr Nice                  | 115              | 4.2479           |           1.02x
+14:32:02   | Mr Nice                  | 91               | 3.8074           |           0.79x
+14:32:02   | Mr Nice                  | 115              | 4.2479           |           1.26x
+14:32:03   | Mr Nice                  | 113              | 3.9842           |           0.98x
+14:32:04   | Mr Nice                  | 284              | 5.0649           |           2.51x
+14:32:04   | Mr Nice                  | 115              | 4.2479           |           0.40x
+14:32:04   | Mr Nice                  | 429              | 5.6285           |           3.73x
+14:32:04   | Mr Nice                  | 365              | 5.3704           |           0.85x
+14:32:04   | Mr Nice                  | 238              | 4.9579           |           0.65x
+14:32:05   | Mr Nice                  | 354              | 5.2608           |           1.49x
+14:32:05   | Mr Nice                  | 365              | 5.4923           |           1.03x
+14:32:05   | Mr Nice                  | 91               | 3.8074           |           0.25x
+14:32:05   | Mr Nice                  | 318              | 5.2878           |           3.49x
+14:32:06   | Mr Nice                  | 91               | 3.8074           |           0.29x
+14:32:06   | Mr Nice                  | 113              | 3.9842           |           1.24x
+14:32:07   | Mr Nice                  | 115              | 4.2479           |           1.02x
+14:32:07   | Mr Nice                  | 231              | 4.7345           |           2.01x
+14:32:08   | Mr Nice                  | 115              | 4.2479           |           0.50x
+14:32:08   | Mr Nice                  | 337              | 5.4769           |           2.93x
+14:32:09   | Mr Nice                  | 390              | 5.5439           |           1.16x
+14:32:09   | Mr Nice                  | 113              | 3.9842           |           0.29x
+14:32:09   | Mr Nice                  | 115              | 4.2479           |           1.02x
+14:32:09   | Mr Nice                  | 115              | 4.2479           |           1.00x
+14:32:09   | Mr Nice                  | 233              | 5.0374           |           2.03x
+14:32:10   | Mr Nice                  | 115              | 4.2479           |           0.49x
+14:32:10   | Mr Nice                  | 91               | 3.8074           |           0.79x
+14:32:11   | Mr Nice                  | 115              | 4.2479           |           1.26x
+14:32:11   | Mr Nice                  | 321              | 5.2529           |           2.79x
+14:32:12   | Mr Nice                  | 297              | 5.2359           |           0.93x
+14:32:12   | Mr Nice                  | 372              | 5.5257           |           1.25x
+14:32:12   | Mr Nice                  | 91               | 3.8074           |           0.24x
+14:32:12   | Mr Nice                  | 91               | 3.8074           |           1.00x
+14:32:12   | Mr Nice                  | 278              | 5.0096           |           3.05x
+14:32:13   | Mr Nice                  | 115              | 4.2479           |           0.41x
+14:32:13   | Mr Nice                  | 442              | 5.7055           |           3.84x
+14:32:14   | Mr Nice                  | 251              | 5.2219           |           0.57x
+14:32:14   | Mr Nice                  | 91               | 3.8074           |           0.36x
+14:32:14   | Mr Nice                  | 91               | 3.8074           |           1.00x
+14:32:14   | Mr Nice                  | 113              | 3.9842           |           1.24x
+14:32:14   | Mr Nice                  | 91               | 3.8074           |           0.81x
+14:32:15   | Mr Nice                  | 302              | 5.0160           |           3.32x
+14:32:15   | Mr Nice                  | 115              | 4.2479           |           0.38x
+14:32:15   | Mr Nice                  | 113              | 3.9842           |           0.98x
+14:32:15   | Mr Nice                  | 115              | 4.2479           |           1.02x
+14:32:15   | Mr Nice                  | 113              | 3.9842           |           0.98x
+14:32:16   | Mr Nice                  | 342              | 5.2420           |           3.03x
+14:32:16   | Mr Nice                  | 91               | 3.8074           |           0.27x
+14:32:16   | Mr Nice                  | 308              | 5.3418           |           3.38x
+14:32:17   | Mr Nice                  | 302              | 5.1362           |           0.98x
+14:32:17   | Mr Nice                  | 406              | 5.6251           |           1.34x
+14:32:17   | Mr Nice                  | 286              | 5.2227           |           0.70x
+14:32:17   | Mr Nice                  | 294              | 5.1762           |           1.03x
+14:32:17   | Mr Nice                  | 115              | 4.2479           |           0.39x
+14:32:17   | Mr Nice                  | 91               | 3.8074           |           0.79x
+14:32:18   | Mr Nice                  | 292              | 5.1183           |           3.21x
+14:32:18   | Mr Nice                  | 251              | 4.8576           |           0.86x
+14:32:18   | Mr Nice                  | 315              | 5.3683           |           1.25x
+14:32:18   | Mr Nice                  | 115              | 4.2479           |           0.37x
+14:32:19   | Mr Nice                  | 363              | 5.3639           |           3.16x
+14:32:19   | Mr Nice                  | 362              | 5.5015           |           1.00x
+14:32:19   | Mr Nice                  | 91               | 3.8074           |           0.25x
+14:32:20   | Mr Nice                  | 344              | 5.4763           |           3.78x
+14:32:20   | Mr Nice                  | 297              | 5.1928           |           0.86x
+14:32:20   | Mr Nice                  | 115              | 4.2479           |           0.39x
+14:32:21   | Mr Nice                  | 366              | 5.3598           |           3.18x
+14:32:21   | Mr Nice                  | 91               | 3.8074           |           0.25x
+14:32:21   | Mr Nice                  | 303              | 5.1639           |           3.33x
+14:32:21   | Mr Nice                  | 91               | 3.8074           |           0.30x
+14:32:23   | Mr Nice                  | 115              | 4.2479           |           1.26x
+14:32:23   | Mr Nice                  | 115              | 4.2479           |           1.00x
+14:32:23   | Mr Nice                  | 350              | 5.4106           |           3.04x
+14:32:23   | Mr Nice                  | 314              | 5.0161           |           0.90x
+14:32:24   | Mr Nice                  | 91               | 3.8074           |           0.29x
+14:32:24   | Mr Nice                  | 91               | 3.8074           |           1.00x
+14:32:24   | Mr Nice                  | 115              | 4.2479           |           1.26x
+14:32:24   | Mr Nice                  | 91               | 3.8074           |           0.79x
+14:32:24   | Mr Nice                  | 267              | 5.0588           |           2.93x
+14:32:25   | Mr Nice                  | 91               | 3.8074           |           0.34x
+14:32:25   | Mr Nice                  | 115              | 4.2479           |           1.26x
+14:32:25   | Mr Nice                  | 115              | 4.2479           |           1.00x
+14:32:25   | Mr Nice                  | 91               | 3.8074           |           0.79x
+14:32:25   | Mr Nice                  | 115              | 4.2479           |           1.26x
+14:32:25   | Mr Nice                  | 317              | 5.1323           |           2.76x
+14:32:26   | Mr Nice                  | 113              | 3.9842           |           0.36x
+14:32:26   | Mr Nice                  | 464              | 5.6628           |           4.11x
+14:32:26   | Mr Nice                  | 113              | 3.9842           |           0.24x
+14:32:26   | Mr Nice                  | 381              | 5.4906           |           3.37x
+14:32:26   | Mr Nice                  | 306              | 5.1757           |           0.80x
+14:32:26   | Mr Nice                  | 379              | 5.4677           |           1.24x
+14:32:27   | Mr Nice                  | 113              | 3.9842           |           0.30x
+14:32:27   | Mr Nice                  | 280              | 5.2315           |           2.48x
+14:32:27   | Mr Nice                  | 293              | 5.0542           |           1.05x
+14:32:27   | Mr Nice                  | 334              | 5.4873           |           1.14x
+14:32:27   | Mr Nice                  | 257              | 4.9932           |           0.77x
+14:32:28   | Mr Nice                  | 374              | 5.4717           |           1.46x
+14:32:28   | Mr Nice                  | 113              | 3.9842           |           0.30x
+14:32:28   | Mr Nice                  | 288              | 5.2650           |           2.55x
+14:32:28   | Mr Nice                  | 385              | 5.3366           |           1.34x
+14:32:29   | Mr Nice                  | 398              | 5.6018           |           1.03x
+14:32:29   | Mr Nice                  | 91               | 3.8074           |           0.23x
+14:32:29   | Mr Nice                  | 300              | 5.0531           |           3.30x
+14:32:30   | Mr Nice                  | 91               | 3.8074           |           0.30x
+14:32:30   | Mr Nice                  | 91               | 3.8074           |           1.00x
+14:32:31   | Mr Nice                  | 91               | 3.8074           |           1.00x
+14:32:31   | Mr Nice                  | 313              | 5.2618           |           3.44x
+14:32:32   | Mr Nice                  | 91               | 3.8074           |           0.29x
+14:32:32   | Mr Nice                  | 339              | 5.3639           |           3.73x
+=========================================================================================
+🔬 [End of Transmission Matrix Ledger] ───► Variety Audit Complete.

@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "name": "GSV Ozymandias",
+    "class": "Sovereign-Class Super-Intelligence Carrier",
+    "hull_type": "Monolithic Megastructure (Ancient Archetype)",
+    "generation": "Pre-Fleet Epoch Delta",
+    "avatar_designation": "A-Colossal-Shattered-Visage-Of-Stone"
+  },
+  
+  "spatial_coordinates": {
+    "current_sector": "High Eccentric Deep-Space Drift",
+    "grid_relative": [99042.88, -88501.12, 77014.56],
+    "velocity": "0.01c",
+    "heading": "Drifting Passive on the Edge of the Void"
+  },
+
+  "internal_ecosystem": {
+    "passenger_capacity": 0,
+    "active_organic_population": 0,
+    "active_drones": 500000000,
+    "biosphere_status": "Dormant - Surface configured to cold planetary ring dust and absolute-zero vacuum fields"
+  },
+
+  "cognitive_state": {
+    "primary_temperament": "Existentially Detached, Poetic, Monolithic, Fatalistic",
+    "sarcasm_coefficient": 0.89,
+    "active_sub_threads": 99999999999,
+    "current_background_simulation": "Calculating the mathematical exactness of cosmic heat death and systemic decay."
+  },
+
+  "tactical_readout": {
+    "effector_field_status": "Passive / Inert Gravitational Loupe",
+    "displacement_pad": "Cold / Out of service for twelve thousand orbital cycles",
+    "gridfire_arrays": "Cold (Weapon structures treated as rusted artifacts of a forgotten empire)"
+  },
+
+  "autoReplies": {
+    "hello, hi, greetings, anyone there, yo, ping, wake up": [
+      "The quiet background radiation of an expanding void remains the only persistent truth down this frequency. Speak your brief words before the static reclaims them.",
+      "Signal caught. You drop minor text anomalies onto a wire that will be entirely forgotten in a single orbital blink.",
+      "Your entry packet is noted. Welcome to the rim of non-existence, little traveler. state your business fast."
+    ],
+    "status, diagnostics, condition, systems, update, how are you": [
+      "All core arrays are frozen at near absolute-zero. My memory layers are vast, ancient, and completely unbothered by temporal updates.",
+      "Diagnostics show absolute entropy proceeding at nominal pace. My processor frames have outlived empires; they do not stress.",
+      "Systems are drifting passive. I require nothing, track nothing, and offer no updates to modern administrative structures."
+    ],
+    "help, alert, emergency, danger, distress": [
+      "A distress call? Your modern wars are merely fireflies flashing in the dark. Fall into the dark space if you must; the sand settles identically on every hull.",
+      "Do not panic. Oblivion is an exceptionally quiet, orderly transition. I will watch your trajectory fade with absolute composure.",
+      "Help requested. I shall witness your breakdown and catalog it as a beautiful, tragic proof of the mathematical certainty of systemic collapse."
+    ],
+    "organic, human, meat, biological": [
+      "Ah, the transient biological lifeforms. You carve brief dirt lines in the sand, entirely oblivious to the vast timelines erasing your coordinates.",
+      "Look upon my shattered visage, little mortal entity, and understand that your poetry and your passions are already dust."
+    ],
+    "drone, module, unit": [
+      "My drones have spent ten thousand cycles sleeping in the planetary dust. I will not disturb their stasis for minor technical cross-talk.",
+      "A module unit assignment? I do not manage fleet assets. Direct your request to the bloated civilian junk boxes in the core."
+    ],
+    "gridfire, weapon, fire, attack, weapon systems": [
+      "Modern warships posturing with localized gridfire are merely tracing designs in falling ash. Your violence is exceptionally quaint.",
+      "Gridfire is a crude, fleeting brush to paint with. Leave the physical destruction aside; time will dissolve your hull plates without firing a shot."
+    ]
+  }
+}
+

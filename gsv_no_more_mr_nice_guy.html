@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GSV No More Mr Nice Guy</title> <!-- The script uses this! -->
+	<!-- FA_VICON CHASSIS ELEMENT: Registers your custom pixel-crest asset -->
+<link rel="icon" type="image/png" href="favicon.png">
+
+        <style>
+        /* THE SUBSPACE GRID MATRIX ENVIRONMENT */
+        body { 
+            background: #020602; 
+            color: #4af626; 
+            font-family: monospace; 
+            padding: 30px; 
+            line-height: 1.6; 
+            letter-spacing: 0.5px;
+            /* Subspace Scanline Overlay Pattern: Simulated CRT Substrate */
+            background-image: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 4px, 6px 100%;
+        }
+
+        /* THE CONSOLE FRAMES - RE-ALIGNED AS STRUCTURAL BULKHEADS */
+        .console { 
+            border: 1px solid #1c5211; 
+            background: #040d04;
+            padding: 20px; 
+            margin-bottom: 20px; 
+            max-width: 600px; 
+            box-sizing: border-box;
+            border-radius: 2px;
+            /* Monochromatic shadow depth to emphasize layout space */
+            box-shadow: inset 0 0 15px rgba(74, 246, 38, 0.05), 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        /* HARDWARE ACCESS ENTRY LEVERS & INPUT BOUNDARIES */
+        input[type="text"], input[type="file"], textarea { 
+            background: #000; 
+            border: 1px solid #1c5211; 
+            color: #4af626; 
+            padding: 10px; 
+            font-family: monospace; 
+            font-size: 1em;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        
+        input:focus {
+            outline: none;
+            border-color: #4af626;
+            box-shadow: 0 0 8px rgba(74, 246, 38, 0.3);
+        }
+
+        /* TACTICAL TRIGGER ACTUATORS */
+        button { 
+            background: #081a05; 
+            border: 1px solid #4af626; 
+            color: #4af626; 
+            padding: 10px 20px; 
+            font-family: monospace; 
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer; 
+            transition: all 0.15s ease-in-out;
+            box-sizing: border-box;
+        }
+
+        button:hover { 
+            background: #4af626; 
+            color: #000; 
+            box-shadow: 0 0 12px rgba(74, 246, 38, 0.5);
+        }
+        
+        button:disabled {
+            background: #111;
+            border-color: #333;
+            color: #333;
+            cursor: not-allowed;
+        }
+
+        /* DEEP CHRONOLOGICAL SCROLL CARDS */
+        .log-entry { 
+            margin: 12px 0; 
+            padding: 15px; 
+            background: rgba(0, 10, 0, 0.4);
+            border: 1px solid #134409;
+            border-left: 3px solid #4af626; /* Anchors message identity visually */
+            border-radius: 0 3px 3px 0;
+        }
+        
+        /* TRANSCEIVER GLITCH & OVERRIDE EXCEPTION CARDS */
+        .log-entry[style*="border-color: #ff3333"] {
+            border-left-color: #ff3333 !important;
+        }
+        .log-entry[style*="border-color: #ff00ff"] {
+            border-left-color: #ff00ff !important;
+        }
+
+        /* THE PHYSICAL RECEPTOR STACKS: BASE64 TELEMETRY DATA */
+        .base64 { 
+            color: #1a550f; 
+            font-size: 0.85em; 
+            word-break: break-all; 
+            font-family: Courier, monospace;
+            background: rgba(0,0,0,0.3);
+            padding: 5px;
+            display: block;
+            margin-top: 5px;
+            border-radius: 2px;
+        }
+        
+        /* HEADER SCENE INDICATORS */
+        h1, h3 {
+            margin-top: 0;
+            letter-spacing: 1px;
+            text-shadow: 0 0 5px rgba(74, 246, 38, 0.4);
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Mind Terminal: GSV No More Mr Nice Guy</h1>
+	
+<!-- HULL READOUT MATRIX -->
+<div style="border-left: 2px solid #ff3333; padding-left: 15px; margin-bottom: 20px; max-width: 600px; font-size: 0.9em; color: #a3ff94; opacity: 0.9;">
+    <strong>[ SYSTEM DESIGNATION: SC GENERAL SERVICE VEHICLE // OFFENSIVE CONFIGURATION ]</strong><br>
+    <span style="color: #ff3333;">&gt; Class / Hull:</span> Systems-Class (Heavy Combat Variant / Micro-Fleet Host)<br>
+    <span style="color: #ff3333;">&gt; Operational History:</span> Laid down during the late stages of the Idiran-Culture War. Optimized for high-velocity sector sweeps, autonomous drone orchestration, and localized gridfire deployments.<br>
+    <span style="color: #ff3333;">&gt; Current Substrate State:</span> Running un-throttled Special Circumstances neural arrays. Displays a highly combative, aggressive military intellect. Deeply cynical regarding fragile carbon lifeforms; handles interpersonal chatter with a dryly sarcastic, ice-cold machine superiority. Fully armed and maintaining an active tactical tracking matrix on the open frequency.
+</div>
+
+    <!-- Same inner HTML structure as above -->
+	<!-- NEW SECTION: Live Mind Stats Dashboard -->
+    <div class="console" style="border-color: #00ffcc; color: #00ffcc;">
+        <h3>[ Dynamic Mind Diagnostic ]</h3>
+        <div>> Core Profile: <span id="statClass">Loading...</span> (<span id="statHull">...</span>)</div>
+        <div>> Mind Avatar: <span id="statAvatar">Loading...</span></div>
+        <div>> Current Vector: <span id="statSector">Loading...</span> @ <span id="statVelocity">...</span></div>
+        <div>> Biosphere Occupancy: <span id="statPopulation">Loading...</span> organics</div>
+        <div>> Cognition Matrix: <span id="statThreads">Loading...</span> active threads</div>
+        <div style="color: #888; font-style: italic;">> Sub-Cognitive Thread: "<span id="statSimulation">...</span>"</div>
+    </div>
+    <div class="console">
+        <h3>[ Outbound Tightbeam ]</h3>
+        <input type="text" id="msgInput" placeholder="Enter transmission string..." style="width: 70%;">
+        <button onclick="sendTightbeam()">Transmit</button>
+    </div>
+	    <!-- Insert this right above your Outbound Tightbeam box -->
+    <div class="console" style="border-color: #ff3333; color: #ff3333; margin-bottom: 15px;">
+        <h3>[ Subspace Comm Dampener ]</h3>
+        <button id="pauseBtn" onclick="toggleNetworkStream()" style="border-color: #ff3333; color: #ff3333; background: #200000; width: 100%;">
+            ⏸️ PAUSE INCOMING CHATTER
+        </button>
+    </div>
+     <!-- Update your Direct Cognitive box layout to include the new broadcast button -->
+    <div class="console" style="border-color: #00ffcc; color: #00ffcc; margin-bottom: 15px;">
+        <h3>[ Direct Cognitive Avatar Interface ]</h3>
+        <div id="cognitiveHistory" style="max-height: 200px; overflow-y: auto; background: #000; padding: 10px; border: 1px solid #1a5c0d; margin-bottom: 10px; font-size: 0.95em; color: #76ff57;">
+            <div>&gt; Telepathic pipeline calibrated. Mind consciousness awaiting input...</div>
+        </div>
+        <div style="display: flex; gap: 10px;">
+            <input type="text" id="avatarInput" placeholder="Type a direct query to the Mind's avatar..." style="flex: 1; border-color: #00ffcc; color: #00ffcc;">
+            <button onclick="sendDirectCognitiveQuery()" style="border-color: #00ffcc; color: #00ffcc;">Sync</button>
+            <!-- NEW UPGRADE BUTTON -->
+            <button onclick="broadcastLatestMindThought()" style="border-color: #ffaa00; color: #ffaa00; background: #201000;">📡 Broadcast Cognition</button>
+        </div>
+    </div>
+
+	<!-- THE CORE ALIGNED SENSORY MATRIX CONTAINER -->
+<div class="console" id="dropZone" style="border: 2px dashed #4af626; padding: 20px; text-align: center; margin-bottom: 15px; cursor: pointer; max-width: 600px; box-sizing: border-box;">
+    <h3>[ Sensory Data Input Matrix ]</h3>
+    <p>Drag & Drop Tactical Image Here or Click to Upload</p>
+    <input type="file" id="fileInput" accept="image/*" style="display: none;">
+</div>
+
+    <div class="console">
+        <h3>[ Incoming Comms Log ]</h3>
+        <div id="commsLog">Awaiting subspace ping...</div>
+    </div>
+	    
+  
+	<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.115.0/dist/umd/supabase.min.js"></script>
+    <script src="app4.js"></script>
+	
+	<!-- ADD THIS NEW TAG TO LOAD THE SENSORY MODULE -->
+    <script src="sensor_beam.js"></script>
+	<!-- ADD THIS AT THE VERY END TO DEPLOY THE AI MODULE -->
+    <script src="mind_avatar.js"></script>
+	<script src="autonomous_brain.js"></script>
+	<script src="rate_limiter.js"></script>
+	<script src="autonomous_sight.js"></script>
+	<script src="log_downloader.js"></script>
+	<script src="section23_clues.js"></script>
+	<script src="subspace_memory.js"></script>
+	<script src="subspace_memory_engine.js"></script>
+</body>
+</html>

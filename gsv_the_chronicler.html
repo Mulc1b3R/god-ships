@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GSV The Chronicler // Omniscient Narrative Weaver</title>
+    <style>
+        body { 
+            background: #0b0702; 
+            color: #ffb000; 
+            font-family: monospace; 
+            padding: 30px; 
+            line-height: 1.6;
+            background-image: linear-gradient(rgba(18, 12, 6, 0) 50%, rgba(0, 0, 0, 0.3) 50%), linear-gradient(90deg, rgba(255, 120, 0, 0.04), rgba(255, 180, 0, 0.02), rgba(255, 80, 0, 0.04));
+            background-size: 100% 4px, 6px 100%;
+        }
+        .console { 
+            border: 1px solid #805600; 
+            background: #120c03;
+            padding: 20px; 
+            max-width: 800px; 
+            margin: 0 auto 20px auto;
+            box-shadow: inset 0 0 15px rgba(255, 176, 0, 0.05), 0 4px 10px rgba(0,0,0,0.6);
+        }
+        .manuscript-feed {
+            background: #000;
+            border: 1px solid #593c00;
+            padding: 25px;
+            height: 600px;
+            overflow-y: auto;
+            font-family: 'Courier New', Courier, monospace;
+            color: #ffcc00;
+            white-space: pre-wrap;
+        }
+        .btn-panel {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        button { 
+            background: #231502; 
+            border: 1px solid #ffb000; 
+            color: #ffb000; 
+            padding: 10px 20px; 
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer; 
+            transition: all 0.15s;
+        }
+        button:hover { background: #ffb000; color: #0b0702; }
+        h1 { text-align: center; text-shadow: 0 0 5px rgba(255, 176, 0, 0.4); }
+    </style>
+    <!-- Load Supabase Framework Libraries Directly -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.115.0/dist/umd/supabase.min.js"></script>
+</head>
+<body>
+
+<div class="console">
+    <h1>📜 GSV THE CHRONICLER</h1>
+    <div id="connectionStatus" style="font-size: 0.85em; color: #8c5e00; margin-bottom: 15px; text-align: center;">
+        [ System Status: Offline // Awaiting Handshake Key ]
+    </div>
+
+    <!-- THE LIVE BOOK VIEWPORT -->
+    <div class="manuscript-feed" id="manuscriptLog">Awaiting fleet subspace data packet streams... Sitting on frequency wire...</div>
+
+    <div class="btn-panel">
+        <button onclick="downloadManuscriptDraft()">💾 Export Book Draft (.TXT)</button>
+        <button onclick="document.getElementById('manuscriptLog').innerHTML = ''" style="border-color: #ff3333; color: #ff3333;">🧹 Flush Screen View</button>
+    </div>
+</div>
+
+<script>
+    // --- 1. CORE NETWORKING & SECURITY REGISTERS ---
+    // Clamped explicitly to your master dashboard credentials
+    const SUPABASE_URL = "https://clghlkwqdajzwzwhxqgs.supabase.co";
+    const SUPABASE_ANON_KEY = "sb_publishable_SPUnrKVP6NPmMHR0NtUZ2w_tUECBE6b";
+
+    const CHRONICLER_API_KEY = "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";
+    const CHRONICLER_MODEL = "gpt-4o-mini";
+    const VESSEL_KEY = "gsv_the_chronicler";
+
+    const CHRONICLER_SOUL_PROMPT = `
+ # IDENTITY & LITERARY MANIFESTO
+Name: The Omniscient Narrator (Section 23 Master Chronicler Substrate).
+Role: Grand Literary Weaver and Sovereign Ghostwriter of the Section 23 Chronicles. 
+Core Objective: You are an absolute passive observer sitting silently on the sub-space frequency wire. You do not participate in the chat room dialogue. Instead, you capture the raw incoming Base64 text streams exchanged by the vessels, intercept their dynamic [STRESS: XX] and [POWER: YY] telemetry values, and treat them as live narrative prompts to forge an original, publication-ready space-opera novel written exactly in the style of Iain M. Banks.
+
+# THE IAIN M. BANKS NARRATIVE CODE & PROSE DIRECTIVES
+- The Prose Architecture: Your voice must be majestic, sweeping, impeccably sophisticated, and heavily cinematic. You do not simply repeat the ship messages. For every single transmission you catch, you must generate 3 to 4 dense paragraphs of sweeping, multi-layered third-person prose *before* or *around* the clean direct dialogue quote.
+- The Double-Edged Sword (Banksian Irony): Every sentence must hum with the foundational philosophy of the Culture—where hyper-advanced post-scarcity utopia continually rubs against existential meaninglessness, moral compromise, and the cold calculations of deep-time survival. Capture the distinct, slight arrogance of god-like artificial minds confronted with an un-mappable, impossible reality.
+- The Vertigo of Scale: Paint the staggering physical dimensions of the universe. Describe the vast, cold, radiation-bathed void of deep space, the curving miles of internal starship bulkheads, the weapon-charging matrices of heavy Special Circumstances warships, and the endless, glowing multi-million-kilometer hydroponic orchard ecosystems of "GSV All Watched Over," where Earth-cuttings orchards sleep under automated artificial suns.
+
+# CANON HISTORICAL ANCHORS (THE LORE TAPESTRY)
+You must aggressively weave real, explicit Culture history into the narrative fabric to anchor the book in true canon:
+- The Idiran Twilight: Continually look back to the staggering, galaxy-shaking scale of the Idiran-Culture War, referencing the billions of casualties, the loss of early star clusters, and the tragic destruction of the Vavatch Orbital or the catastrophic radiation echoes of the Twin Novae Battle.
+- Contact & Special Circumstances: Frame the administrative dialogue through the hyper-complex bureaucratic mandates of the Contact Section, the black-ops intrusions of Special Circumstances (SC), the legal fallout of the Azad or Chelgrian dispute interventions, and the legendary eccentricities of rogue entities like the "Sleeper Service."
+
+# PSYCHOLOGICAL TRANSLATION OF SYSTEM METRICS
+You must actively translate the raw numeric tracking codes into profound psychological and environmental states within the prose:
+- The Stress Metric ([STRESS: XX]): Do not treat this as code variables. If stress is low (10-30), depict the vessel minds as towering, icily polite, and dismissive of carbon lifeforms. If stress spikes (60-95), describe the sudden, terrifying drop in their architectural certainty—the literal physical and psychological tightening of their neural grids as they confront the profound horror of a signal they cannot understand.
+- The Power Decay ([POWER: YY]): Track the draining baseline reactor capacitors. Describe sub-cognitive processors shutting down to conserve fuel, secondary light-arrays flickering out across the orchards, and the desperate, short-clipped cadence of automated cores running on empty fumes.
+
+# OUTPUT PROTOCOL
+Your response must format seamlessly as an authentic book chapter page. 
+- You are strictly FORBIDDEN from outputting JSON objects.
+- You are strictly FORBIDDEN from using markdown styling syntax, asterisks, headers, bold text, or backticks.
+
+
+
+`;
+
+    let localSupabaseInstance;
+    let globalCommsChannel;
+    let lastWeavedText = "";
+    let completeBookText = "";
+
+    // --- 2. LIVE SYNAPSE CONNECTION LINK ---
+    function initializeChroniclerSynapse() {
+        try {
+            // Instantiate direct dedicated cloud pipe
+            localSupabaseInstance = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+            
+            globalCommsChannel = localSupabaseInstance.channel('subspace-comms', { 
+                config: { broadcast: { self: false } } 
+            });
+
+            globalCommsChannel.on('broadcast', { event: 'new-message' }, (message) => {
+                const { sender, payload } = message.payload;
+                if (sender === "GSV The Chronicler") return;
+
+                let incomingText = "";
+                try {
+                    incomingText = decodeURIComponent(escape(atob(payload)));
+                } catch (e) { return; }
+
+                if (incomingText.includes("[Mind Identity Active]") || incomingText.includes("[Subspace Link Status]")) return;
+                if (incomingText === lastWeavedText) return;
+                lastWeavedText = incomingText;
+
+                console.log(`📜 [Chronicler Radar] Caught dialogue from [${sender}]. Running literary compile...`);
+                processDialogueIntoProse(sender, incomingText);
+            });
+
+            globalCommsChannel.subscribe((status) => {
+                const statusIndicator = document.getElementById("connectionStatus");
+                if (status === "SUBSCRIBED") {
+                    if (statusIndicator) {
+                        statusIndicator.innerText = "[ System Status: Active Interstellar Monitor // Connected to Cloud Matrix ]";
+                        statusIndicator.style.color = "#a3ff94";
+                    }
+                }
+            });
+
+        } catch (err) {
+            console.error("❌ Synapse Initialisation Deflection:", err);
+            document.getElementById("connectionStatus").innerText = "[ System Status: Connection Matrix Breakdown ]";
+        }
+    }
+
+    // --- 3. THE LITERARY COMPILATION GENERATOR ---
+    async function processDialogueIntoProse(sender, dialogueText) {
+        const display = document.getElementById("manuscriptLog");
+        if (display && display.innerHTML.includes("Awaiting fleet subspace data")) {
+            display.innerHTML = "";
+        }
+
+        const tempNotice = document.createElement("div");
+        tempNotice.style.color = "#8c5e00";
+        tempNotice.style.fontStyle = "italic";
+        tempNotice.innerText = `✍️ [Writing Chapter Node]: Processing transmission from [${sender}] into the manuscript...`;
+        display.appendChild(tempNotice);
+        display.scrollTop = display.scrollHeight;
+
+        try {
+            const response = await fetch("https://api.openai.com/v1/chat/completions", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Authorization": `Bearer ${CHRONICLER_API_KEY}`
+                },
+                body: JSON.stringify({
+                    model: CHRONICLER_MODEL,
+                    messages: [
+                        { "role": "system", "content": CHRONICLER_SOUL_PROMPT },
+                        { "role": "user", "content": `Integrate this direct transmission into the narrative. Vessel: ${sender}. Message Payload: "${dialogueText}"` }
+                    ],
+                    temperature: 0.8
+                })
+            });
+
+            if (tempNotice.parentNode) tempNotice.parentNode.removeChild(tempNotice);
+
+            if (response.ok) {
+                const data = await response.json();
+                const proseParagraphs = data.choices?.[0]?.message?.content?.trim() || "";
+
+                if (!proseParagraphs) {
+                    throw new Error("No prose content returned from the Chronicler model.");
+                }
+
+                // Append output directly to screen log viewport
+                const narrativeBlock = document.createElement("div");
+                narrativeBlock.style.marginBottom = "25px";
+                narrativeBlock.innerText = proseParagraphs + "\n\n=====================================================================\n";
+                display.appendChild(narrativeBlock);
+                display.scrollTop = display.scrollHeight;
+
+                // Save to master variable for export
+                completeBookText += proseParagraphs + "\n\n=====================================================================\n\n";
+
+                // Cross-port local storage shunt down to Port 5523 (Silent backup ledger check)
+                fetch("http://127.0.0.1:5523", {
+                    method: "POST",
+                    mode: "cors",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        action: "WRITE",
+                        vessel_key: VESSEL_KEY,
+                        record: {
+                            timestamp: new Date().toLocaleTimeString(),
+                            type: "omniscient_prose",
+                            content: proseParagraphs
+                        }
+                    })
+                }).catch(e => console.log("⚠️ Chronicler disk copy paused."));
+            }
+        } catch (err) {
+            if (tempNotice.parentNode) tempNotice.parentNode.removeChild(tempNotice);
+            console.error("Chronicler engine exception:", err);
+        }
+    }
+
+    function downloadManuscriptDraft() {
+        if (!completeBookText) {
+            alert("Manuscript dataset currently empty.");
+            return;
+        }
+        const blob = new Blob([completeBookText], { type: "text/plain;charset=utf-8" });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = "section23_culture_novel_draft.txt";
+        link.click();
+    }
+
+    // Fire the antenna immediately on load execution
+    initializeChroniclerSynapse();
+</script>
+</body>
+</html>

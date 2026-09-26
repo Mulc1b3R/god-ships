@@ -1,0 +1,10 @@
+{
+    "greeting": "Systems nominal. Hull integrity at 100%.",
+    "temperament": "Protective",
+    "sarcasmLevel": 0.2,
+    "autoReplies": {
+        "hello": "Greetings. This is the Limiting Factor. All environments are stable.",
+        "status": "Scanning local system. No threats detected. Safe travels.",
+        "help": "Deploying defensive displacement fields to your coordinates immediately."
+    }
+}

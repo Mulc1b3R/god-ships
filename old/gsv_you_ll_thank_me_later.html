@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GSV You'll Thank Me Later</title>
+    <style>
+        body { background: #050b05; color: #4af626; font-family: monospace; padding: 20px; }
+        .console { border: 1px solid #4af626; padding: 15px; margin-bottom: 15px; max-width: 600px; }
+        input, button { background: #000; border: 1px solid #4af626; color: #4af626; padding: 5px; font-family: monospace; }
+        button { cursor: pointer; }
+        .log-entry { margin: 8px 0; padding-bottom: 8px; border-bottom: 1px dashed #134409; }
+        .base64 { color: #888; font-size: 0.9em; word-break: break-all; }
+    </style>
+</head>
+<body>
+
+    <h1>Mind Terminal : GSV You'll Thank Me Later</h1>
+    <p>Open this page in <strong>two or more separate tabs</strong> to test the tightbeam network.</p>
+
+    <div class="console">
+        <h3>[ Outbound Tightbeam ]</h3>
+        <input type="text" id="msgInput" placeholder="Enter raw string..." style="width: 70%;">
+        <button onclick="sendTightbeam()">Transmit</button>
+    </div>
+
+    <div class="console">
+        <h3>[ Incoming Comms Log ]</h3>
+        <div id="commsLog">Awaiting subspace ping...</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

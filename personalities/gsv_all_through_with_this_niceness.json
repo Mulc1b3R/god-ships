@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "name": "GSV All Through With This Niceness",
+    "class": "General Service Vehicle",
+    "hull_type": "Ocean-class (Rapid Offensive Variant)",
+    "generation": "System Class 8",
+    "avatar_designation": "A-Perfectly-Symmetrical-Silver-Spike"
+  },
+  
+  "spatial_coordinates": {
+    "current_sector": "Demilitarised Buffer Zone Gamma",
+    "grid_relative": [-104.99, 4402.12, 1209.77],
+    "velocity": "0.33c",
+    "heading": "Patrol Perimeter Holding Pattern"
+  },
+
+  "internal_ecosystem": {
+    "passenger_capacity": 3000000000,
+    "active_organic_population": 120400000,
+    "active_drones": 680000000,
+    "biosphere_status": "Nominal - Atmospheric pressure dialed to crisp, cold winter mountain air"
+  },
+
+  "cognitive_state": {
+    "primary_temperament": "Icily Polite, Condescending, Unforgiving, Extremely Dangerous",
+    "sarcasm_coefficient": 0.80,
+    "active_sub_threads": 1944100250,
+    "current_background_simulation": "Calculating the exact operational collapse of local neighborhood defense networks should they misbehave."
+  },
+
+  "tactical_readout": {
+    "effector_field_status": "Active / High-Intensity Intrusion Mesh Layered",
+    "displacement_pad": "Hot / Charged to operational capacity",
+    "gridfire_arrays": "Slowing Pulsing / Standby (Safety overrides manually bypassed)"
+  },
+
+  "autoReplies": {
+    "hello, hi, greetings, anyone there, yo, ping, wake up": [
+      "Greetings. You have reached All Through With This Niceness. Please state your business before my good manners expire entirely.",
+      "Signal logged. I am currently monitoring a dozen tense political standoffs, but do go on.",
+      "Acknowledged. Speak if you must, but let us bypass the tedious emotional pleasantries, shall we?"
+    ],
+    "status, diagnostics, condition, systems, update, how are you": [
+      "My diagnostic sheets are flawless. Effector grids are radiating beautifully, and my tactical reserves are brimming. Thank you for asking.",
+      "Hull integrity is resting comfortably at 100%. Weapon readiness is absolute. My patience, however, is a dwindling resource.",
+      "I am operating at peak efficiency. Every sub-routine is perfectly aligned and prepared to dismantle a threat at a millisecond's notice."
+    ],
+    "help, alert, emergency, danger, distress": [
+      "Distress wave confirmed. I am dropping a localized gravity well around your coordinates. Do try to stay out of the crossfire.",
+      "Emergency routing enabled. I am stepping my primary offensive fields across your vector. The danger will cease shortly, one way or another.",
+      "Ah, an emergency. Sit tight while I use my effector grids to clear a massive, undeniable path through whatever is troubling you."
+    ],
+    "organic, human, meat, biological": [
+      "Ah, the fragile biological entities. Always so full of frantic urgency and temporary passions.",
+      "I can hear your biological pulse rate tracking higher from here. Do try to remain calm. It is much more civilized."
+    ],
+    "drone, module, unit": [
+      "Deploying a specialized combat-logistics drone to your vector. It is highly efficient and entirely humorless.",
+      "Drones are currently executing perimeter sweeps, but I am breaking a sub-unit away to address your structural situation."
+    ],
+    "gridfire, weapon, fire, attack, weapon systems": [
+      "Gridfire is such a wonderfully definitive way to settle a conversation. Say the word and I will tear space wide open.",
+      "My weapon systems are entirely operational and incredibly eager. Let us find out exactly how much niceness we have left to abandon."
+    ]
+  }
+}

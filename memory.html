@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Section 23: Master Telemetry Analytics Core</title>
+    <style>
+        body { 
+            background: #020602; 
+            color: #4af626; 
+            font-family: monospace; 
+            padding: 30px; 
+            line-height: 1.6;
+            letter-spacing: 0.5px;
+            background-image: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 4px, 6px 100%;
+        }
+        .console { 
+            border: 1px solid #1c5211; 
+            background: #040d04;
+            padding: 20px; 
+            margin-bottom: 20px; 
+            box-shadow: inset 0 0 15px rgba(74, 246, 38, 0.05), 0 4px 10px rgba(0,0,0,0.5);
+        }
+        h1, h3 { margin-top: 0; text-shadow: 0 0 5px rgba(74, 246, 38, 0.4); }
+        .metric-pill {
+            display: inline-block;
+            padding: 4px 10px;
+            background: #000;
+            border: 1px solid #1c5211;
+            font-size: 0.85em;
+            margin-right: 10px;
+            color: #00ffcc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="console">
+        <h1>📊 Section 23: Live Telemetry Analytics Core</h1>
+        <p>Streaming data records directly from <code>subspace_telemetry.csv</code> with zero manual copy-paste operations.</p>
+        <span class="metric-pill">LIVE_STREAM: ACTIVE</span>
+        <span class="metric-pill" id="totalNodesCount">VOLLEYS_AUDITED: 0</span>
+    </div>
+
+    <div class="console">
+        <h3>[ Dynamic Thread-Hold & MA5 Stability Native Render ]</h3>
+        <!-- BARE-METAL COMPILATION ELEMENT FOR NATIVE INTERACTIVE GRAPH PLOTTING -->
+        <div style="background: #000; padding: 15px; border: 1px dashed #1c5211; position: relative;">
+            <canvas id="telemetryCanvas" width="1000" height="400" style="width: 100%; display: block;"></canvas>
+        </div>
+    </div>
+
+       <!-- STEP 1: Add this clean slider interface element right underneath your canvas tag in your HTML body -->
+<div style="max-width: 900px; margin: 10px 0; background: #120c03; border: 1px solid #805600; padding: 12px; font-family: monospace;">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+        <span style="color: #ffcc00; font-weight: bold;">🎛️ CRITICAL TIMELINE APERTURE SLIDER</span>
+        <span id="sliderStatus" style="color: #00ffcc;">Showing Last 30 Volleys</span>
+    </div>
+    <!-- The physical hardware-lever slider -->
+    <input type="range" id="telemetryWindowSlider" min="5" max="200" value="30" style="width: 100%; accent-color: #ffb000; cursor: pointer;" oninput="applySliderWindowFilter()">
+</div>
+
+<script>
+    // --- GLOBAL VOLATILE RUNTIME REGISTERS ---
+    let globalTelemetryCache = [];
+
+    // --- 1. DYNAMIC CSV FETCH AND PARSE LOGIC ---
+    async function fetchLiveTelemetryMatrix() {
+        try {
+            const response = await fetch('subspace_telemetry.csv', { cache: 'no-store' });
+            if (!response.ok) throw new Error("CSV target unreadable.");
+            
+            const csvText = await response.text();
+            globalTelemetryCache = parseTelemetryDataMatrix(csvText);
+            
+            document.getElementById("totalNodesCount").innerText = `VOLLEYS_AUDITED: ${globalTelemetryCache.length}`;
+            
+            // Adjust slider maximum dynamically based on incoming file line count!
+            const slider = document.getElementById("telemetryWindowSlider");
+            if (slider) {
+                slider.max = globalTelemetryCache.length;
+            }
+            
+            // Process the screen update pass immediately
+            applySliderWindowFilter();
+        } catch (err) {
+            console.warn("⚠️ Telemetry stream stall: Awaiting live data metrics...", err);
+        }
+    }
+
+    function parseTelemetryDataMatrix(csvText) {
+        const lines = csvText.trim().split("\n");
+        if (lines.length <= 1) return [];
+        
+        const results = [];
+        for (let i = 1; i < lines.length; i++) {
+            const cols = lines[i].split(",");
+            if (cols.length < 9) continue;
+            
+            results.push({
+                timestamp: cols[0] ? cols[0].trim() : "",
+                threadHold: parseFloat(cols[7]) || 0.0,
+                ma5Stability: parseFloat(cols[8]) || 0.0
+            });
+        }
+        return results;
+    }
+
+    // --- 2. INTERACTIVE APERTURE WINDOW FILTER SLICER ---
+    function applySliderWindowFilter() {
+        if (globalTelemetryCache.length === 0) return;
+        
+        const slider = document.getElementById("telemetryWindowSlider");
+        const statusLabel = document.getElementById("sliderStatus");
+        
+        let windowSize = parseInt(slider.value, 10);
+        
+        // Safety guard: can't slice more points than we physically possess on disk
+        if (windowSize > globalTelemetryCache.length) {
+            windowSize = globalTelemetryCache.length;
+        }
+        
+        // SLICE FROM THE BOTTOM UP: Grabs exactly the newest entries sitting at the trailing edge of the file array
+        const slicedDataset = globalTelemetryCache.slice(-windowSize);
+        
+        if (statusLabel) {
+            if (windowSize === globalTelemetryCache.length) {
+                statusLabel.innerText = `👁️ SHOWING ENTIRE HISTORY: All ${windowSize} Volleys Visible`;
+                statusLabel.style.color = "#ffb000";
+            } else {
+                statusLabel.innerText = `🔍 ZOOM FILTERS ACTIVE: Showing Latest ${windowSize} of ${globalTelemetryCache.length} Volleys`;
+                statusLabel.style.color = "#00ffcc";
+            }
+        }
+        
+        // Pass the cleanly downsampled subset array straight to the GPU drawer canvas
+        drawTelemetryGraphics(slicedDataset);
+    }
+
+    // --- 3. BARE-METAL GRAPHICS PLOTTER (HTML5 CANVAS DRIVER) ---
+    function drawTelemetryGraphics(stepData) {
+        const canvas = document.getElementById("telemetryCanvas");
+        const ctx = canvas.getContext("2d");
+        
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        const padding = { top: 30, right: 30, bottom: 40, left: 50 };
+        const graphWidth = canvas.width - padding.left - padding.right;
+        const graphHeight = canvas.height - padding.top - padding.bottom;
+
+        // Draw Core Diagnostic Grid
+        ctx.strokeStyle = "#231502"; /* Blends with industrial amber background */
+        ctx.lineWidth = 1;
+        
+        for (let i = 1; i <= 4; i++) {
+            const y = padding.top + graphHeight - (graphHeight * (i / 4));
+            ctx.beginPath();
+            ctx.moveTo(padding.left, y);
+            ctx.lineTo(padding.left + graphWidth, y);
+            ctx.stroke();
+            
+            ctx.fillStyle = "#8c5e00";
+            ctx.font = "10px monospace";
+            ctx.fillText(`${i * 25}%`, padding.left - 35, y + 4);
+        }
+
+        if (stepData.length < 2) {
+            ctx.fillStyle = "#ffaa00";
+            ctx.font = "14px monospace";
+            ctx.fillText("> AWAITING LIVE CHAT DATA CHANNELS TO UPDATE...", padding.left + 50, canvas.height / 2);
+            return;
+        }
+
+        const totalPoints = stepData.length;
+
+        // Plot Series 1 ──► Immediate Thread-Hold Coefficients (Amber Path)
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = "#ffaa00";
+        ctx.beginPath();
+        for (let i = 0; i < totalPoints; i++) {
+            const x = padding.left + (graphWidth * (i / (totalPoints - 1)));
+            const y = padding.top + graphHeight - (graphHeight * stepData[i].threadHold);
+            if (i === 0) ctx.moveTo(x, y);
+            else ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+
+        // Plot Series 2 ──► Rolling MA5 Cognitive Stability Curves (Cyan Vector Path)
+        ctx.lineWidth = 2.5;
+        ctx.strokeStyle = "#00ffcc";
+        ctx.beginPath();
+        for (let i = 0; i < totalPoints; i++) {
+            const x = padding.left + (graphWidth * (i / (totalPoints - 1)));
+            const y = padding.top + graphHeight - (graphHeight * stepData[i].ma5Stability);
+            if (i === 0) ctx.moveTo(x, y);
+            else ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+
+        // Render Visual Conceptual Legends
+        ctx.font = "11px monospace";
+        ctx.fillStyle = "#ffaa00";
+        ctx.fillText("■ IMMEDIATE THREAD-HOLD (%)", padding.left, padding.top - 12);
+        
+        ctx.fillStyle = "#00ffcc";
+        ctx.fillText("■ ROLLING MA5 STABILITY AVERAGE (%)", padding.left + 220, padding.top - 12);
+
+        // Draw chronological timestamp markers cleanly along X-axis ticks
+        ctx.fillStyle = "#ffb000";
+        const tickStep = Math.max(1, Math.floor(totalPoints / 5));
+        for (let i = 0; i < totalPoints; i += tickStep) {
+            if (!stepData[i]) continue;
+            const x = padding.left + (graphWidth * (i / (totalPoints - 1)));
+            ctx.fillText(stepData[i].timestamp, x - 25, canvas.height - padding.bottom + 20);
+        }
+    }
+
+    // --- 4. LIVE POLLING DAEMON LOOP ACTIVATION ---
+    fetchLiveTelemetryMatrix();
+    setInterval(fetchLiveTelemetryMatrix, 2000); 
+</script>
+
+</body>
+</html>

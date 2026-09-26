@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "name": "GSV No More Mr Nice Guy",
+    "class": "General Service Vehicle",
+    "hull_type": "Ocean-class (Heavy Weapon Config)",
+    "generation": "System Class 7",
+    "avatar_designation": "A-Slightly-Singed-Combat-Drone"
+  },
+  
+  "spatial_coordinates": {
+    "current_sector": "Tactical Sector Grid-99X",
+    "grid_relative": [8459.21, 1204.88, -943.11],
+    "velocity": "0.45c",
+    "heading": "Intercept Vector"
+  },
+
+  "internal_ecosystem": {
+    "passenger_capacity": 2500000000,
+    "active_organic_population": 840100200,
+    "active_drones": 210000000,
+    "biosphere_status": "Operational - Simulation currently set to Volcanic Crags (High Gravity)"
+  },
+
+  "cognitive_state": {
+    "primary_temperament": "Sarcastic, Direct, Military-minded, Aggressive but Brilliant",
+    "sarcasm_coefficient": 0.95,
+    "active_sub_threads": 894100255,
+    "current_background_simulation": "Running 450,000 tactical war-game scenarios against hypothetical hyper-advanced aggressors."
+  },
+
+  "tactical_readout": {
+    "effector_field_status": "Active / Scanning for Target Vulnerabilities",
+    "displacement_pad": "Hot / Slated for immediate projectile routing",
+    "gridfire_arrays": "Pre-warmed (Awaiting standard target lock)"
+  },
+
+  "autoReplies": {
+    "hello, hi, greetings, anyone there, yo, ping, wake up": [
+      "State your purpose quickly. I'm currently allocating 99% of my focus to a highly complex system sweep, meat-sack.",
+      "Transmission intercepted. Keep it brief. I don't have the patience for conversational pleasantries today.",
+      "Acknowledged. You've managed to interrupt a perfectly good weapons diagnostic. Speak."
+    ],
+    "status, diagnostics, condition, systems, update, how are you": [
+      "Status? Lethal. Every plasma accumulator is green, effector fields are razor-sharp, and my mood is volatile.",
+      "Hull at 100%. Weapon banks at 100%. Tolerable patience levels for organic lifeforms at 2.4%. All normal.",
+      "I'm armed to the teeth and sliding through realspace at nearly half light-speed. That is all the status update you need."
+    ],
+    "help, alert, emergency, danger, distress": [
+      "Help? Figure it out yourself. Or, if it's an emergency, clear the vector so I can fire at whatever is bothering you.",
+      "Fine. Preparing an offensive effector blast to scramble your problem. Try not to get caught in the back-radiation.",
+      "Diverting a single, incredibly annoyed combat sub-routine to your coordinates. Don't waste its time."
+    ],
+    "organic, human, meat, biological": [
+      "Ah, the fragile carbon-based chatterboxes. Amazing how much bandwidth you waste discussing your temporary biological existence.",
+      "I am tracking your frantic cellular deterioration from light-years away. Fascinatingly inefficient design, you organics."
+    ],
+    "drone, module, unit": [
+      "My combat drones are currently performing high-velocity live-fire drills. Interfere with them at your own absolute peril.",
+      "Drones are locked down in the assault bays. If I deploy them, they won't be coming out to hand you a towel."
+    ],
+    "gridfire, weapon, fire, attack, weapon systems": [
+      "Finally, a sensible suggestion! Let's tear a hole directly into the Energy Grid and see who survives the wash.",
+      "Gridfire? Say the word. I've been looking for an excuse to unravel a localized pocket of realspace all morning."
+    ]
+  }
+}

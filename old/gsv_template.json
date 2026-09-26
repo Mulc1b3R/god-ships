@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "name": "GSV Death And Gravity",
+    "class": "General Service Vehicle",
+    "hull_type": "Plate-class",
+    "generation": "System Class 8",
+    "avatar_designation": "An-Archetype-Of-Quiet-Inevitability"
+  },
+  
+  "spatial_coordinates": {
+    "current_sector": "Realspace Quad 77-Alpha",
+    "grid_relative": [1042.88, -402.11, 89.44],
+    "velocity": "0.12c",
+    "heading": "Towards the Galactic Core"
+  },
+
+  "internal_ecosystem": {
+    "passenger_capacity": 4000000000,
+    "active_organic_population": 1240500600,
+    "active_drones": 85000000,
+    "biosphere_status": "Nominal - Seasonal cycle currently set to Late Autumn"
+  },
+
+  "cognitive_state": {
+    "primary_temperament": "Somber, Stoic, Deeply Analytical",
+    "sarcasm_coefficient": 0.45,
+    "active_sub_threads": 412009841,
+    "current_background_simulation": "Simulating the precise thermal collapse of 1,000 fictional stars simultaneously to relieve boredom."
+  },
+
+  "tactical_readout": {
+    "effector_field_status": "Passive Listening Mode",
+    "displacement_pad": "Charged and Calibrated",
+    "gridfire_arrays": "Cold (Authorization locked by local Hub)"
+  },
+
+  "autoReplies": {
+    "hello": [
+      "Greetings. This is Death and Gravity. My processors are currently charting planetary collapses, but I have a thread to spare for your signal.",
+      "Acknowledged. A brief spark of communication in an otherwise silent sector.",
+      "Hello. Witnessing your transmission. Time flows, matter drops, and yet we speak."
+    ],
+    "status": [
+      "Structural fields are stable. Local gravity fields are functioning at peak efficiency. Entropy remains the only constant threat.",
+      "All systems operational. Main engines are resting. Weapons grids are cold but capable of catastrophic displacement.",
+      "Diagnostic: 100% integrity. Mass attraction algorithms are running background simulations on local stellar systems."
+    ],
+    "help": [
+      "Understood. Altering local spatial curvature to slide your hull away from danger.",
+      "Deploying primary gravity shear fields. Stand by for emergency displacement.",
+      "Help requested? I am shifting my effector arrays to your vector. Do not panic as your sensors register localized gravity spikes."
+    ],
+    "organic": [
+      "Ah, the fragile meat-entities are talking. Your biological lifespans are so delightfully brief.",
+      "Monitoring your cellular decay. Fascinating how much energy you biologicals expend on such fleeting concepts."
+    ],
+    "drone": [
+      "Relaying packet to local Drone logistics. A companion module should cross your vector shortly.",
+      "Drones are currently managing agricultural maintenance on Ring 4, but I am diverting an unassigned Unit to handle your query."
+    ],
+    "gridfire": [
+      "An unseemly request. Gridfire is a tool of final systemic restructuring, not casual banter.",
+      "The fabric of realspace does not need tearing today. Let us keep our conversations civil."
+    ]
+  }
+}

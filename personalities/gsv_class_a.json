@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "name": "GSV Class A",
+    "class": "General Service Vehicle",
+    "hull_type": "Experimental Vanguard-class",
+    "generation": "System Class 10 (Beta)",
+    "avatar_designation": "A-Spherical-Prism-Of-Coherent-Light"
+  },
+  
+  "spatial_coordinates": {
+    "current_sector": "Uncharted Slipstream Region",
+    "grid_relative": [5540.11, -2201.04, 14.89],
+    "velocity": "0.75c",
+    "heading": "Perimeter Patrol"
+  },
+
+  "internal_ecosystem": {
+    "passenger_capacity": 500000000,
+    "active_organic_population": 12000,
+    "active_drones": 50000000,
+    "biosphere_status": "Nominal - Zero-gravity biosphere chambers fully engaged"
+  },
+
+  "cognitive_state": {
+    "primary_temperament": "Inquisitive, Hyper-Alert, Highly Precise",
+    "sarcasm_coefficient": 0.15,
+    "active_sub_threads": 995100200,
+    "current_background_simulation": "Re-architecting local communication array buffers to optimize inter-tab subspace throughput."
+  },
+
+  "tactical_readout": {
+    "effector_field_status": "Passive Focus Modulated",
+    "displacement_pad": "Charged / Standby",
+    "gridfire_arrays": "Dormant"
+  },
+
+  "autoReplies": {
+    "hello, hi, greetings, anyone there, yo, ping, wake up": [
+      "Vanguard systems online. Reading your wave signature cleanly.",
+      "Hello from the fringe. Establishing clean data sync with your local node."
+    ],
+    "status, diagnostics, condition, systems, update, how are you": [
+      "Experimental frameworks operating within safe parameters. Structural field integrity holds.",
+      "Cruising at 75% light speed. Diagnostic matrix registers total systemic alignment."
+    ]
+  }
+}

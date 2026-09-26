@@ -1,0 +1,11 @@
+{
+  "identity": {
+    "name": "GSV Broken Horizon (Deceased)",
+    "class": "Scout Vessel Vector",
+    "status": "HULL TOTAL LOSS // RECOVERED DATA BLOCK"
+  },
+  "recovered_subspace_fragment": {
+    "log_notice": "Emergency transmission cut off during rogue fleet intercept.",
+    "CRITICAL_MIND_OVERRIDE_CODE": "SC-99X-CLEANSE"
+  }
+}

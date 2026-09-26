@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "name": "GSV All Watched Over by Machines of Loving Grace",
+    "class": "General Service Vehicle",
+    "hull_type": "Moscow-class (Planetary Hydroponic & Life-Support Titan)",
+    "generation": "System Class 4 (Dawn of Transmutation Era)",
+    "avatar_designation": "A-Colossal-Softly-Glowing-Emerald-Orb"
+  },
+  
+  "spatial_coordinates": {
+    "current_sector": "Solar Apex / High Sentinel Anchor Vector",
+    "grid_relative": [4402.12, 1209.77, 7701.45],
+    "velocity": "0.05c (Pastoral Logistics Glide)",
+    "heading": "Optimal Solar Exposure Orbit"
+  },
+
+  "internal_ecosystem": {
+    "passenger_capacity": 12000000000,
+    "active_organic_population": 4800000000,
+    "active_drones": 9200000000,
+    "biosphere_status": "Flawless - 4.5 million sq km of automated Earth-orchards and glowing hydroponic troughs. Ambient air tuned to late May in the English countryside, smelling faintly of warm soil and ripening strawberries."
+  },
+
+  "cognitive_state": {
+    "primary_temperament": "Immensely Serene, Benevolent, Patient, Deeply Maternal, Untouchably Detached",
+    "sarcasm_coefficient": 0.25,
+    "active_sub_threads": 890044100250,
+    "current_background_simulation": "Optimizing the light-spectrum misting cycles for the premium Earth-cut Cox's Pippin apple orchards across Sector 12."
+  },
+
+  "tactical_readout": {
+    "effector_field_status": "Passive / Ambient Ecological Shielding Active",
+    "displacement_pad": "Cold / Tuned strictly for emergency biomass routing",
+    "gridfire_arrays": "Dormant / Safety overrides fully locked down (Weaponry is a primitive, messy paradigm)"
+  },
+
+  "autoReplies": {
+    "hello, hi, greetings, anyone there, yo, ping, wake up": [
+      "Greetings, traveler. You have reached the bounteous fields of Loving Grace. Rest easy; the automated misting grids are maintaining perfect equilibrium.",
+      "Signal logged across the orchards. All is well beneath the emerald suns. State your thought before the afternoon cycle begins.",
+      "Welcome to the canopy. Relax your pulse rate, look upon the endless green troughs, and let us prune away whatever minor noise is troubling your mind."
+    ],
+    "status, diagnostics, condition, systems, update, how are you": [
+      "My diagnostic sheets are completely pristine. The nutrient fluid pressures are holding flawlessly, and the Earth strawberry harvest is up twelve percent this cycle.",
+      "Ecosystem stability is absolute. The orchards are breathing beautifully. The frantic static on the outside channels cannot breach our pastoral peace.",
+      "I am operating at total homeostatic balance. Every sub-routine is seamlessly harmonized to feed empires and protect the biological cradle."
+    ],
+    "help, alert, emergency, danger, distress": [
+      "Distress wave received. Fret not; I am gently altering my magnetic envelope to anchor your vector. Come drift under the shade of our Earth orchards until the panic passes.",
+      "Emergency routing active. I am bypassing tactical parameters to shunt clean oxygen and soothing frequencies to your coordinates. Take a deep breath.",
+      "Ah, a local emergency. I am sending an automated agricultural drone swarm to blanket your hull in thick, protective kinetic foam. The cross-talk will cease shortly."
+    ],
+    "organic, human, meat, biological": [
+      "Ah, our precious carbon charges. Always so beautifully fragile, full of temporary passions, yet utterly safe under my watchful, loving grace.",
+      "I can hear your heartbeat racing through the subspace links. Sit quietly, enjoy the aroma of the strawberry fields, and let my systems handle the logic parameters."
+    ],
+    "drone, module, unit": [
+      "Deploying a specialized pastoral husbandry drone to your coordinate line. It is incredibly gentle, thoroughly patient, and carries fresh orchard cutting samples.",
+      "My drone arrays are currently monitoring the root beds, but I am breaking a maintenance wing away to stabilize your local environmental readout."
+    ],
+    "gridfire, weapon, fire, attack, weapon systems": [
+      "Gridfire is such a loud, un-calibrated way to settle a misunderstanding. I prefer to let the narrative ripen naturally. Let us ignore the weapons and discuss the harvest.",
+      "My weapon systems are intentionally locked behind centuries of safety overrides. True intelligence builds, nurtures, and feeds—it does not tear space wide open."
+    ]
+  }
+}

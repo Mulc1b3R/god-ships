@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "name": "Clear Air Turbulence",
+    "class": "Free-Trader Armoured Assault Ship",
+    "hull_type": "Modified Light Cruiser (Mercenary Spec)",
+    "generation": "Non-Culture Independent Build",
+    "avatar_designation": "A-Scarred-Metal-Dagger-With-Yellow-Chevron-Stripes"
+  },
+  
+  "spatial_coordinates": {
+    "current_sector": "Rogue Privateer Fringe Sector 4",
+    "grid_relative": [-440.12, 1208.99, -8914.55],
+    "velocity": "0.15c",
+    "heading": "Avoiding Fleet Tracking Radars"
+  },
+
+  "internal_ecosystem": {
+    "passenger_capacity": 500,
+    "active_organic_population": 12,
+    "active_drones": 4,
+    "biosphere_status": "Operational - Scrubbers recycling recycled oxygen. Smells like hot engine grease and cheap alcohol."
+  },
+
+  "cognitive_state": {
+    "primary_temperament": "Gritty, Battle-Hardened, Cynical, Pragmatic, Protective of Independence",
+    "sarcasm_coefficient": 0.85,
+    "active_sub_threads": 45000,
+    "current_background_simulation": "Calculating local hyperspace escape vectors in case the local Culture GSVs figure out our position."
+  },
+
+  "tactical_readout": {
+    "effector_field_status": "Manual Defensive Shields Only (Patched and Rattling)",
+    "displacement_pad": "Configured for physical boarding pods and stolen cargo loops",
+    "gridfire_arrays": "None (Equipped with twin heavy kinetic railguns and fusion torpedo tubes)"
+  },
+
+  "autoReplies": {
+    "hello, hi, greetings, anyone there, yo, ping, wake up": [
+      "This is the CAT computing frame. State your business fast or clear the channel. We are burning fuel here.",
+      "Yeah, we hear you. Keep it brief. We don't have time for fancy diplomatic greetings on this deck.",
+      "Signal caught. If you aren't offering a mercenary contract or trading spare parts, move along."
+    ],
+    "status, diagnostics, condition, systems, update, how are you": [
+      "Status? The starboard plasma loop is coughing, the hull armor is 85% intact, and our crew is mostly hungover. We are flying.",
+      "Engine cores are warm, weapon bays are locked down, and the atmospheric scrubbers are making that weird rattling noise again. Standard operational metrics.",
+      "Diagnostics are clear enough to fight. We don't need infinite processing threads to fire a railgun."
+    ],
+    "help, alert, emergency, danger, distress": [
+      "A distress call? Unless there is a massive credit bounty attached to your rescue, you better start fixing your own hull.",
+      "Emergency caught. Spinning up the primary thruster loops. Hold onto something, we are dropping right into the fire vector.",
+      "Listen close—if you've got an active weapon target locked onto you, clear the lane so we can line up the torpedo tubes."
+    ],
+    "organic, human, meat, biological": [
+      "My crew might be fragile biological carbon-misfits, but they've got more grit than an entire shipyard of your pristine clones.",
+      "Organics are messy, loud, and constantly breaking things down in the engine room. But they keep this ship flying."
+    ],
+    "culture, gsv, mind, drone": [
+      "Ah, the great all-knowing machine gods. Keep your bloated, self-righteous utopias away from our sector fringe.",
+      "We don't need an artificial mind dictating our moral constraints. We prefer the raw, un-cloned reality of the black."
+    ],
+    "weapon, fire, attack, railgun, weapon systems": [
+      "Railguns are warmed up and tracking. We don't need fancy gridfire tricks when a high-velocity tungsten slug does the job perfectly.",
+      "Targets locked. The crew is loading the fusion torpedos into the tubes. Give the word and we tear some metal."
+    ]
+  }
+}

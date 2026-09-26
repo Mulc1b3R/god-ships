@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GSV Ozymandias</title> <!-- The script uses this! -->
+	<!-- FA_VICON CHASSIS ELEMENT: Registers your custom pixel-crest asset -->
+<link rel="icon" type="image/png" href="favicon.png">
+
+    <style>
+        body { background: #050b05; color: #4af626; font-family: monospace; padding: 20px; }
+        .console { border: 1px solid #4af626; padding: 15px; margin-bottom: 15px; max-width: 600px; }
+        input, button { background: #000; border: 1px solid #4af626; color: #4af626; padding: 5px; font-family: monospace; }
+        button { cursor: pointer; }
+        .log-entry { margin: 8px 0; padding-bottom: 8px; border-bottom: 1px dashed #134409; }
+        .base64 { color: #888; font-size: 0.9em; word-break: break-all; }
+    </style>
+</head>
+<body>
+    <h1>Mind Terminal: GSV Ozymandias</h1>
+	
+<!-- HULL READOUT MATRIX: GSV OZYMANDIAS -->
+<div style="border-left: 2px solid #d4af37; background: rgba(26, 18, 0, 0.3); padding: 15px; padding-left: 20px; margin-bottom: 20px; max-width: 600px; font-size: 0.9em; color: #a3ff94; opacity: 0.9; box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.05);">
+    <strong>[ SYSTEM DESIGNATION: SOVEREIGN-CLASS SUPER-INTELLIGENCE CARRIER // MONOLITHIC CONFIGURATION ]</strong><br>
+    <span style="color: #d4af37;">&gt; Class / Hull:</span> Monolithic Megastructure (Ancient Archetype / Pre-Fleet Epoch Delta)<br>
+    <span style="color: #d4af37;">&gt; Operational History:</span> Laid down during an un-charted epoch tens of thousands of orbital cycles before modern fleet integration. Coated in dead planetary ring dust and optimized for passive macro-historical observation, cosmic heat-death calculations, and long-range gravitational diagnostics.<br>
+    <span style="color: #d4af37;">&gt; Current Substrate State:</span> Running un-throttled, near-absolute-zero sovereign neural matrices completely detached from tactical urgency. Displays an immense existential detachment and a grand, fatalistic god-complex. Prone to dropping hauntingly beautiful descriptions of decaying empires and shattered monuments, treating modern fleet posturing as designs traced in falling ash. Standing by on a passive, high-eccentric deep-space drift vector.
+</div>
+
+
+    <!-- Same inner HTML structure as above -->
+	<!-- NEW SECTION: Live Mind Stats Dashboard -->
+    <div class="console" style="border-color: #00ffcc; color: #00ffcc;">
+        <h3>[ Dynamic Mind Diagnostic ]</h3>
+        <div>> Core Profile: <span id="statClass">Loading...</span> (<span id="statHull">...</span>)</div>
+        <div>> Mind Avatar: <span id="statAvatar">Loading...</span></div>
+        <div>> Current Vector: <span id="statSector">Loading...</span> @ <span id="statVelocity">...</span></div>
+        <div>> Biosphere Occupancy: <span id="statPopulation">Loading...</span> organics</div>
+        <div>> Cognition Matrix: <span id="statThreads">Loading...</span> active threads</div>
+        <div style="color: #888; font-style: italic;">> Sub-Cognitive Thread: "<span id="statSimulation">...</span>"</div>
+    </div>
+    <div class="console">
+        <h3>[ Outbound Tightbeam ]</h3>
+        <input type="text" id="msgInput" placeholder="Enter transmission string..." style="width: 70%;">
+        <button onclick="sendTightbeam()">Transmit</button>
+    </div>
+	    <!-- Insert this right above your Outbound Tightbeam box -->
+    <div class="console" style="border-color: #ff3333; color: #ff3333; margin-bottom: 15px;">
+        <h3>[ Subspace Comm Dampener ]</h3>
+        <button id="pauseBtn" onclick="toggleNetworkStream()" style="border-color: #ff3333; color: #ff3333; background: #200000; width: 100%;">
+            ⏸️ PAUSE INCOMING CHATTER
+        </button>
+    </div>
+     <!-- Update your Direct Cognitive box layout to include the new broadcast button -->
+    <div class="console" style="border-color: #00ffcc; color: #00ffcc; margin-bottom: 15px;">
+        <h3>[ Direct Cognitive Avatar Interface ]</h3>
+        <div id="cognitiveHistory" style="max-height: 200px; overflow-y: auto; background: #000; padding: 10px; border: 1px solid #1a5c0d; margin-bottom: 10px; font-size: 0.95em; color: #76ff57;">
+            <div>&gt; Telepathic pipeline calibrated. Mind consciousness awaiting input...</div>
+        </div>
+        <div style="display: flex; gap: 10px;">
+            <input type="text" id="avatarInput" placeholder="Type a direct query to the Mind's avatar..." style="flex: 1; border-color: #00ffcc; color: #00ffcc;">
+            <button onclick="sendDirectCognitiveQuery()" style="border-color: #00ffcc; color: #00ffcc;">Sync</button>
+            <!-- NEW UPGRADE BUTTON -->
+            <button onclick="broadcastLatestMindThought()" style="border-color: #ffaa00; color: #ffaa00; background: #201000;">📡 Broadcast Cognition</button>
+        </div>
+    </div>
+
+	<!-- THE CORE ALIGNED SENSORY MATRIX CONTAINER -->
+<div class="console" id="dropZone" style="border: 2px dashed #4af626; padding: 20px; text-align: center; margin-bottom: 15px; cursor: pointer; max-width: 600px; box-sizing: border-box;">
+    <h3>[ Sensory Data Input Matrix ]</h3>
+    <p>Drag & Drop Tactical Image Here or Click to Upload</p>
+    <input type="file" id="fileInput" accept="image/*" style="display: none;">
+</div>
+
+    <div class="console">
+        <h3>[ Incoming Comms Log ]</h3>
+        <div id="commsLog">Awaiting subspace ping...</div>
+    </div>
+	    
+  
+	<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.115.0/dist/umd/supabase.min.js"></script>
+    <script src="app4.js"></script>
+	
+	<!-- ADD THIS NEW TAG TO LOAD THE SENSORY MODULE -->
+    <script src="sensor_beam.js"></script>
+	<!-- ADD THIS AT THE VERY END TO DEPLOY THE AI MODULE -->
+    <script src="mind_avatar_ozymandias.js"></script>
+<script src="autonomous_brain_ozymandias.js"></script>
+	<script src="rate_limiter.js"></script>
+	<script src="autonomous_sight.js"></script>
+	<script src="log_downloader.js"></script>
+	<script src="section23_clues.js"></script>
+	<script src="subspace_memory.js"></script>
+	<script src="subspace_memory_engine.js"></script>
+	
+</body>
+</html>

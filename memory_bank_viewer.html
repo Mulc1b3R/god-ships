@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Section 23: Master Memory Bank Viewer</title>
+    <style>
+        /* THE CRITICAL CRT COOKPIT LIGHT ENGINE */
+        body { 
+            background: #020602; 
+            color: #4af626; 
+            font-family: monospace; 
+            padding: 30px; 
+            line-height: 1.6;
+            letter-spacing: 0.5px;
+            background-image: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 4px, 6px 100%;
+        }
+
+        /* CONSOLE PANEL FRAMES */
+        .console { 
+            border: 1px solid #1c5211; 
+            background: #040d04;
+            padding: 20px; 
+            margin-bottom: 20px; 
+            box-shadow: inset 0 0 15px rgba(74, 246, 38, 0.05), 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        /* FILTERS SELECT ACTUATORS */
+        select, button { 
+            background: #000; 
+            border: 1px solid #1c5211; 
+            color: #4af626; 
+            padding: 10px; 
+            font-family: monospace; 
+            font-size: 1em;
+            cursor: pointer;
+        }
+        
+        select:focus, button:focus {
+            outline: none;
+            border-color: #4af626;
+            box-shadow: 0 0 8px rgba(74, 246, 38, 0.3);
+        }
+
+        /* THE CHRONOLOGICAL MANUSCRIPT CARDS */
+        .memory-card { 
+            margin: 12px 0; 
+            padding: 15px; 
+            background: rgba(0, 10, 0, 0.4);
+            border: 1px solid #134409;
+            border-left: 3px solid #4af626;
+            border-radius: 0 3px 3px 0;
+            transition: all 0.2s ease;
+        }
+
+        /* TYPING SIGNATURE HIGHLIGHTS */
+        .type-reflex { border-left-color: #ffaa00; }
+        .type-cognition { border-left-color: #00ffcc; }
+
+        .meta-header {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+        
+        .timestamp { color: #888; }
+        .vessel-tag { color: #a3ff94; text-shadow: 0 0 3px rgba(74, 246, 38, 0.4); }
+        .type-tag { font-size: 0.8em; padding: 2px 6px; background: #000; border: 1px solid #1c5211; margin-left: 10px; }
+
+        h1, h3 { margin-top: 0; text-shadow: 0 0 5px rgba(74, 246, 38, 0.4); }
+    </style>
+</head>
+<body>
+
+    <div class="console">
+        <h1>🏛️ Section 23: Memory Bank Telemetry Core</h1>
+        <p>Telemetry ledger database active. Querying structured JSON data packages natively from individual disk files via Port 5523.</p>
+        
+        <!-- TELEMETRY FILTER CONTROLS -->
+        <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+            <div>
+                <label>&gt; Target Node Filter: </label>
+                <select id="vesselFilter" onchange="renderMemoryBanks()">
+                    <option value="ALL">-- ALL ACTIVE NODES --</option>
+                    <option value="GSV Ozymandias">GSV Ozymandias</option>
+                    <option value="GSV No More Mr Nice Guy">GSV No More Mr Nice Guy</option>
+                    <option value="GSV Mr Nice">GSV Mr Nice</option>
+                    <option value="GSV Class A">GSV Class A</option>
+                    <option value="GSV Clear Air Turbulence">GSV Clear Air Turbulence</option>
+                </select>
+            </div>
+            <div>
+                <label>&gt; Signal Stratum: </label>
+                <select id="typeFilter" onchange="renderMemoryBanks()">
+                    <option value="ALL">-- ALL DATA MATRIX LEVELS --</option>
+                    <option value="hardware_reflex">Fast Hardware Reflexes</option>
+                    <option value="autonomous_cognition">Deep AI Monologues</option>
+                </select>
+            </div>
+            <button onclick="fetchAllShipMemoriesFromDisk()" style="border-color: #00ffcc; color: #00ffcc; background: #00110a;">
+                🔄 Fetch Live Disk Banks
+            </button>
+        </div>
+    </div>
+
+    <!-- RENDER DISPLAY SCREEN LINK -->
+    <div class="console" id="memoryDisplayStack">
+        <h3>[ Subspace Memory Stream ]</h3>
+        <div id="cardsContainer">Awaiting telemetry file hook sync...</div>
+    </div>
+
+        <script>
+        // Global runtime cache box that holds the combined data streams from all root files
+        let masterMemoryBank = [];
+
+        // Exact physical filenames sitting in your root directory
+        const vesselFiles = {
+            "GSV Ozymandias": "memory_bank_gsv_ozymandias.json",
+            "GSV No More Mr Nice Guy": "memory_bank_gsv_no_more_mr_nice_guy.json",
+            "GSV Mr Nice": "memory_bank_gsv_mr_nice.json",
+            "GSV Class A": "memory_bank_gsv_class_a.json",
+            "GSV Clear Air Turbulence": "memory_bank_gsv_clear_air_turbulence.json"
+        };
+
+        // --- DIRECT BROWSER DISK-FETCH PIPELINE VECTOR ---
+        // Bypasses port 5523 server entirely. Fetches raw JSON assets straight out of the root folder.
+        async function fetchAllShipMemoriesFromDisk() {
+            const container = document.getElementById('cardsContainer');
+            container.innerHTML = "<div>⏳ Querying root directory JSON ledger vaults directly...</div>";
+            
+            masterMemoryBank = [];
+            
+            // Loop through all 5 local files simultaneously
+            for (const [vesselName, fileName] of Object.entries(vesselFiles)) {
+                try {
+                    // Fetch the file as a local relative web path from your port 5500 server root
+                    const response = await fetch(`./${fileName}`, { cache: 'no-store' });
+                    
+                    if (response.ok) {
+                        const shipHistory = await response.json();
+                        
+                        // Parse each individual row entry block inside the file array
+                        shipHistory.forEach(record => {
+                            masterMemoryBank.push({
+                                timestamp: record.timestamp || "00:00:00",
+                                vessel: vesselName,
+                                type: record.type || "autonomous_cognition",
+                                content: record.content || ""
+                            });
+                        });
+                    } else {
+                        console.warn(`⚠️ File ${fileName} not found in root or empty array.`);
+                    }
+                } catch (err) {
+                    console.warn(`⚠️ Failed to parse local asset file: ${fileName}. Check bracket formatting.`);
+                }
+            }
+
+            // Enforce absolute chronological sorting order across all file logs combined
+            masterMemoryBank.sort((a, b) => a.timestamp.localeCompare(b.timestamp));
+            
+            // Render the sorted data results straight to your green dashboard layout grid
+            renderMemoryBanks();
+        }
+
+        function renderMemoryBanks() {
+            const container = document.getElementById('cardsContainer');
+            const vesselFilter = document.getElementById('vesselFilter').value;
+            const typeFilter = document.getElementById('typeFilter').value;
+            
+            container.innerHTML = "";
+            
+            // Filter your master ledger array based on active screen drop-down choices
+            const filteredRecords = masterMemoryBank.filter(record => {
+                const matchVessel = (vesselFilter === "ALL" || record.vessel === vesselFilter);
+                const matchType = (typeFilter === "ALL" || record.type === typeFilter);
+                return matchVessel && matchType;
+            });
+
+            if (filteredRecords.length === 0) {
+                container.innerHTML = "<div>&gt; Telemetry track clear. No memory cards matching current filters.</div>";
+                return;
+            }
+
+            // Generate physical HTML cards for every single stored entry row block
+            filteredRecords.forEach(record => {
+                const cardDiv = document.createElement('div');
+                const borderClass = record.type === 'hardware_reflex' ? 'memory-card type-reflex' : 'memory-card type-cognition';
+                cardDiv.className = borderClass;
+                
+                const typeLabel = record.type === 'hardware_reflex' ? 'HARDWARE_REFLEX' : 'AUTONOMOUS_COGNITION';
+                const typeColor = record.type === 'hardware_reflex' ? '#ffaa00' : '#00ffcc';
+
+                cardDiv.innerHTML = `
+                    <div class="meta-header">
+                        <span class="timestamp">[${record.timestamp}]</span> 
+                        <span class="vessel-tag">&lt;${record.vessel}&gt;</span>
+                        <span class="type-tag" style="color: ${typeColor}; border-color: ${typeColor};">${typeLabel}</span>
+                    </div>
+                    <div class="content-body">💬 ${record.content}</div>
+                `;
+                container.appendChild(cardDiv);
+            });
+        }
+
+        // Initialize direct loop execution automatically on page load
+        window.onload = fetchAllShipMemoriesFromDisk;
+    </script>
+
+</body>
+</html>

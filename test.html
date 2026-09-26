@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Section 23: Master Memory Bank Viewer</title>
+    <style>
+        /* THE CRITICAL CRT COOKPIT LIGHT ENGINE */
+        body { 
+            background: #020602; 
+            color: #4af626; 
+            font-family: monospace; 
+            padding: 30px; 
+            line-height: 1.6;
+            letter-spacing: 0.5px;
+            background-image: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 4px, 6px 100%;
+        }
+
+        /* CONSOLE PANEL FRAMES */
+        .console { 
+            border: 1px solid #1c5211; 
+            background: #040d04;
+            padding: 20px; 
+            margin-bottom: 20px; 
+            box-shadow: inset 0 0 15px rgba(74, 246, 38, 0.05), 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        /* FILTERS SELECT ACTUATORS */
+        select, button { 
+            background: #000; 
+            border: 1px solid #1c5211; 
+            color: #4af626; 
+            padding: 10px; 
+            font-family: monospace; 
+            font-size: 1em;
+            cursor: pointer;
+        }
+        
+        select:focus, button:focus {
+            outline: none;
+            border-color: #4af626;
+            box-shadow: 0 0 8px rgba(74, 246, 38, 0.3);
+        }
+
+        /* THE CHRONOLOGICAL MANUSCRIPT CARDS */
+        .memory-card { 
+            margin: 12px 0; 
+            padding: 15px; 
+            background: rgba(0, 10, 0, 0.4);
+            border: 1px solid #134409;
+            border-left: 3px solid #4af626;
+            border-radius: 0 3px 3px 0;
+            transition: all 0.2s ease;
+        }
+
+        /* TYPING SIGNATURE HIGHLIGHTS */
+        .type-reflex { border-left-color: #ffaa00; }
+        .type-cognition { border-left-color: #00ffcc; }
+
+        .meta-header {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+        
+        .timestamp { color: #888; }
+        .vessel-tag { color: #a3ff94; text-shadow: 0 0 3px rgba(74, 246, 38, 0.4); }
+        .type-tag { font-size: 0.8em; padding: 2px 6px; background: #000; border: 1px solid #1c5211; margin-left: 10px; }
+
+        h1, h3 { margin-top: 0; text-shadow: 0 0 5px rgba(74, 246, 38, 0.4); }
+    </style>
+</head>
+<body>
+<body>
+
+    <div class="console">
+        <h1>📊 Section 23: Live Telemetry Analytics Core</h1>
+        <p>Streaming data records directly from <code>subspace_telemetry.csv</code>. Dual-canvas linguistic diagnostic array initialized.</p>
+        <span class="metric-pill">LIVE_STREAM: ACTIVE</span>
+        <span class="metric-pill" id="totalNodesCount">VOLLEYS_AUDITED: 0</span>
+    </div>
+
+    <div class="grid-layout">
+        <!-- ENGINE VIEW 1: NET MEMORY THREAD COHESION -->
+        <div class="console">
+            <h3>[ Dynamic Thread-Hold & MA5 Stability Native Render ]</h3>
+            <div style="background: #000; padding: 15px; border: 1px dashed #1c5211;">
+                <canvas id="telemetryCanvas" width="1000" height="320" style="width: 100%; display: block;"></canvas>
+            </div>
+        </div>
+
+        <!-- ENGINE VIEW 2: COGNITIVE DIVERGENCE LINGUISTIC DRIFT -->
+        <div class="console">
+            <h3>[ Multi-Agent Cognitive Divergence Filter: Vocabulary Mass Tracking ]</h3>
+            <div style="background: #000; padding: 15px; border: 1px dashed #1c5211;">
+                <canvas id="cognitiveCanvas" width="1000" height="320" style="width: 100%; display: block;"></canvas>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Faction color coding keys assigned to each vessel profile signature
+        const factionColors = {
+            "Ozymandias": "#d4af37",          // Sand-Swept Sovereign Bronze
+            "No More Mr Nice Guy": "#ff3333", // Heavy Aggressive Combat Crimson
+            "Mr Nice": "#ff8800",             // Passive-Aggressive Solar Amber
+            "Class A": "#00ffcc",             // Clinical Regulatory Mint Cyan
+            "Clear Air Turbulence": "#ff00ff" // Frantic Manic Privateer Magenta
+        };
+
+        // --- 1. DYNAMIC CSV FETCH AND PARSE LOGIC ---
+        async function fetchLiveTelemetryMatrix() {
+            try {
+                const response = await fetch('subspace_telemetry.csv', { cache: 'no-store' });
+                if (!response.ok) throw new Error("CSV target unreadable.");
+                
+                const csvText = await response.text();
+                const telemetryDataset = parseTelemetryDataMatrix(csvText);
+                
+                document.getElementById("totalNodesCount").innerText = `VOLLEYS_AUDITED: ${telemetryDataset.length}`;
+                
+                // Fire native graphic canvas draws across both core screens simultaneously!
+                drawTelemetryGraphics(telemetryDataset);
+                drawCognitiveDivergenceGraphics(telemetryDataset);
+                
+            } catch (err) {
+                console.warn("⚠️ Telemetry stream stall: Awaiting live data metrics...", err);
+            }
+        }
+
+                      function parseTelemetryDataMatrix(csvText) {
+            const lines = csvText.trim().split("\n");
+            if (lines.length <= 1) return [];
+            
+            const results = [];
+            for (let i = 1; i < lines.length; i++) {
+                const cols = lines[i].split(",");
+                if (cols.length < 9) continue;
+                
+                results.push({
+                    timestamp: cols[0] ? cols[0].trim() : "00:00:00",
+                    vessel: cols[1] ? cols[1].replace("GSV ", "").trim() : "Unknown",
+                    wordCount: parseInt(cols[3]) || 0,
+                    avgWordLen: parseFloat(cols[5]) || 0.0,
+                    lexicalDensity: parseFloat(cols[6]) || 0.0,
+                    threadHold: parseFloat(cols[7]) || 0.0,
+                    ma5Stability: parseFloat(cols[8]) || 0.0
+                });
+            }
+            return results;
+        }
+
+
+
+        // --- 2. BARE-METAL PANEL ONE: THREAD GRAPHICS ---
+        function drawTelemetryGraphics(data) {
+            const canvas = document.getElementById("telemetryCanvas");
+            const ctx = canvas.getContext("2d");
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            const padding = { top: 30, right: 30, bottom: 40, left: 50 };
+            const graphWidth = canvas.width - padding.left - padding.right;
+            const graphHeight = canvas.height - padding.top - padding.bottom;
+
+            ctx.strokeStyle = "#123312";
+            ctx.lineWidth = 1;
+            for (let i = 1; i <= 4; i++) {
+                const y = padding.top + graphHeight - (graphHeight * (i / 4));
+                ctx.beginPath(); ctx.moveTo(padding.left, y); ctx.lineTo(padding.left + graphWidth, y); ctx.stroke();
+                ctx.fillStyle = "#1c5211"; ctx.font = "10px monospace";
+                ctx.fillText(`${i * 25}%`, padding.left - 35, y + 4);
+            }
+
+            if (data.length < 2) return;
+
+            const maxVisiblePoints = 100; // Chronological historical lookback view ceiling
+            const stepData = data.length > maxVisiblePoints ? data.slice(-maxVisiblePoints) : data;
+            const totalPoints = stepData.length;
+
+            // Plot Immediate Thread Retention Path (Amber Line)
+            ctx.lineWidth = 1.5; ctx.strokeStyle = "#ffaa00"; ctx.beginPath();
+            for (let i = 0; i < totalPoints; i++) {
+                const x = padding.left + (graphWidth * (i / (totalPoints - 1)));
+                const y = padding.top + graphHeight - (graphHeight * stepData[i].threadHold);
+                if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+            }
+            ctx.stroke();
+
+            // Plot Moving Average Stability (Cyan Line)
+            ctx.lineWidth = 2.5; ctx.strokeStyle = "#00ffcc"; ctx.beginPath();
+            for (let i = 0; i < totalPoints; i++) {
+                const x = padding.left + (graphWidth * (i / (totalPoints - 1)));
+                const y = padding.top + graphHeight - (graphHeight * stepData[i].ma5Stability);
+                if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+            }
+            ctx.stroke();
+
+            // Render Header Text Legends
+            ctx.font = "11px monospace";
+            ctx.fillStyle = "#ffaa00"; ctx.fillText("■ IMMEDIATE THREAD-HOLD (%)", padding.left, padding.top - 12);
+            ctx.fillStyle = "#00ffcc"; ctx.fillText("■ ROLLING MA5 STABILITY AVERAGE (%)", padding.left + 220, padding.top - 12);
+
+            ctx.fillStyle = "#4af626";
+            const tickStep = Math.max(1, Math.floor(totalPoints / 5));
+            for (let i = 0; i < totalPoints; i += tickStep) {
+                const x = padding.left + (graphWidth * (i / (totalPoints - 1)));
+                ctx.fillText(stepData[i].timestamp, x - 25, canvas.height - padding.bottom + 20);
+            }
+        }
+
+        // --- 3. BARE-METAL PANEL TWO: COGNITIVE DIVERGENCE (NEW LINGUISTIC GRAPH) ---
+        function drawCognitiveDivergenceGraphics(data) {
+            const canvas = document.getElementById("cognitiveCanvas");
+            const ctx = canvas.getContext("2d");
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            const padding = { top: 35, right: 30, bottom: 40, left: 50 };
+            const graphWidth = canvas.width - padding.left - padding.right;
+            const graphHeight = canvas.height - padding.top - padding.bottom;
+
+            // Draw Y-Axis Guideline Scale (Mapping Average Character Word Mass from 4.0 to 8.0)
+            ctx.strokeStyle = "#123312";
+            ctx.lineWidth = 1;
+            const minScale = 4.0;
+            const maxScale = 8.0;
+
+            for (let i = 0; i <= 4; i++) {
+                const scaleVal = minScale + (i * 1.0);
+                const y = padding.top + graphHeight - (graphHeight * ((scaleVal - minScale) / (maxScale - minScale)));
+                ctx.beginPath(); ctx.moveTo(padding.left, y); ctx.lineTo(padding.left + graphWidth, y); ctx.stroke();
+                ctx.fillStyle = "#1c5211"; ctx.font = "10px monospace";
+                ctx.fillText(`${scaleVal.toFixed(1)} ch`, padding.left - 45, y + 4);
+            }
+
+            if (data.length < 2) return;
+
+            // Group chronological vectors by unique ship keys while maintaining timeline indices
+            const maxVisiblePoints = 100;
+            const stepData = data.length > maxVisiblePoints ? data.slice(-maxVisiblePoints) : data;
+            
+            // Build discrete timeline points for each individual ship entity
+            const shipTimelines = {};
+            Object.keys(factionColors).forEach(name => shipTimelines[name] = []);
+
+            stepData.forEach((record, index) => {
+                if (shipTimelines[record.vessel]) {
+                    shipTimelines[record.vessel].push({
+                        xIndex: index,
+                        avgWordLen: record.avgWordLen
+                    });
+                }
+            });
+
+            // Draw continuous line tracks for each active vessel archetype
+            Object.entries(shipTimelines).forEach(([vesselName, points]) => {
+                if (points.length < 2) return;
+                
+                ctx.lineWidth = 2.0;
+                ctx.strokeStyle = factionColors[vesselName] || "#ffffff";
+                ctx.beginPath();
+                
+                let isFirst = true;
+                points.forEach(pt => {
+                    const x = padding.left + (graphWidth * (pt.xIndex / (stepData.length - 1)));
+                    // Normalize the scale position dynamically onto our 4.0 - 8.0 viewport grid
+                    let normalizedY = (pt.avgWordLen - minScale) / (maxScale - minScale);
+                    normalizedY = Math.max(0, Math.min(1, normalizedY)); // Safety cap clamp bounds
+                    const y = padding.top + graphHeight - (graphHeight * normalizedY);
+                    
+                    if (isFirst) { ctx.moveTo(x, y); isFirst = false; }
+                    else ctx.lineTo(x, y);
+                });
+                ctx.stroke();
+                
+                // Micro data node dots to track scattered updates visually
+                points.forEach(pt => {
+                    const x = padding.left + (graphWidth * (pt.xIndex / (stepData.length - 1)));
+                    let normalizedY = (pt.avgWordLen - minScale) / (maxScale - minScale);
+                    normalizedY = Math.max(0, Math.min(1, normalizedY));
+                    const y = padding.top + graphHeight - (graphHeight * normalizedY);
+                    
+                    ctx.fillStyle = factionColors[vesselName];
+                    ctx.beginPath(); ctx.arc(x, y, 3, 0, 2 * Math.PI); ctx.fill();
+                });
+            });
+
+            // Render Dynamic Interactive Visual Legends Matrix
+            ctx.font = "10px monospace";
+            let legendX = padding.left;
+            Object.entries(factionColors).forEach(([vesselName, color]) => {
+                ctx.fillStyle = color;
+                ctx.fillText(`■ ${vesselName}`, legendX, padding.top - 15);
+                legendX += 175; // Space headers cleanly along horizontal alignment rules
+            });
+
+            // Render timeline markers along bottom margins
+            ctx.fillStyle = "#4af626";
+            const tickStep = Math.max(1, Math.floor(stepData.length / 5));
+            for (let i = 0; i < stepData.length; i += tickStep) {
+                const x = padding.left + (graphWidth * (i / (stepData.length - 1)));
+                ctx.fillText(stepData[i].timestamp, x - 25, canvas.height - padding.bottom + 20);
+            }
+        }
+
+        // --- 4. LIVE AUTOMATED POLLING DAEMON LOOP ACTIVATION ---
+        fetchLiveTelemetryMatrix();
+        setInterval(fetchLiveTelemetryMatrix, 2000); // Dynamic sweep pass execution locked to 2s intervals
+    </script>
+</body>
+</html>
+
