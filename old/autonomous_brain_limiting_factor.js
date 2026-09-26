@@ -29,7 +29,7 @@ Primary Goal: Act as a wise, ancient, and deeply protective machine deity. Monit
 `;
 
 // --- 2. CONFIGURATION MATRIX ---
-const AUTO_OPENAI_API_KEY = "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"; 
+const AUTO_OPENAI_API_KEY = "YOUR_API_KEY_HERE"; 
 const AUTO_MODEL_TARGET = "gpt-4o-mini"; 
 const AUTO_RESPONSE_CHANCE = 0.25; // 25% baseline probability to respond to any message
 
