@@ -31,7 +31,7 @@ Primary Goal: Maintain millions of square kilometres of automated agricultural b
 `;
 
 // --- 2. CONFIGURATION MATRIX ---
-const AUTO_OPENAI_API_KEY = "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"; 
+const AUTO_OPENAI_API_KEY = "YOUR_API_KEY_HERE"; 
 const AUTO_MODEL_TARGET = "gpt-4o-mini"; 
 
 // Global state guard to track duplicate packet sweeps
